@@ -15,19 +15,37 @@ Requires internet access to:
     - query1/2.finance.yahoo.com (price history, via yfinance)
 """
 import argparse
+import io
 import json
 import sys
 from datetime import datetime, timezone
 
 import pandas as pd
+import requests
 import yfinance as yf
 
 SP500_WIKI_URL = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
 NASDAQ100_WIKI_URL = "https://en.wikipedia.org/wiki/Nasdaq-100"
 
+# Wikipedia returns HTTP 403 for requests that don't look like a real browser
+# (Python's default urllib User-Agent gets blocked). Spoofing a normal
+# browser User-Agent here fixes it.
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36"
+    )
+}
+
+
+def fetch_tables(url: str):
+    resp = requests.get(url, headers=HEADERS, timeout=30)
+    resp.raise_for_status()
+    return pd.read_html(io.StringIO(resp.text))
+
 
 def get_sp500_constituents() -> pd.DataFrame:
-    tables = pd.read_html(SP500_WIKI_URL)
+    tables = fetch_tables(SP500_WIKI_URL)
     df = tables[0].rename(columns={"Symbol": "symbol", "Security": "name"})
     df["symbol"] = df["symbol"].astype(str).str.replace(".", "-", regex=False)
     df["index"] = "S&P 500"
@@ -35,7 +53,7 @@ def get_sp500_constituents() -> pd.DataFrame:
 
 
 def get_nasdaq100_constituents() -> pd.DataFrame:
-    tables = pd.read_html(NASDAQ100_WIKI_URL)
+    tables = fetch_tables(NASDAQ100_WIKI_URL)
     df = None
     for t in tables:
         cols = [str(c).lower() for c in t.columns]
@@ -159,3 +177,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
