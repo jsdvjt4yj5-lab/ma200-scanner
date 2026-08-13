@@ -25,7 +25,6 @@ import requests
 import yfinance as yf
 
 SP500_WIKI_URL = "https://en.wikipedia.org/wiki/List_of_S%26P_500_companies"
-NASDAQ100_WIKI_URL = "https://en.wikipedia.org/wiki/Nasdaq-100"
 
 # Wikipedia returns HTTP 403 for requests that don't look like a real browser
 # (Python's default urllib User-Agent gets blocked). Spoofing a normal
@@ -52,63 +51,27 @@ def get_sp500_constituents() -> pd.DataFrame:
     return df[["symbol", "name", "index"]]
 
 
-def _flatten_col(c) -> str:
-    if isinstance(c, tuple):
-        parts = [str(x) for x in c if x and "Unnamed" not in str(x)]
-        return " ".join(parts) if parts else str(c[0])
-    return str(c)
-
-
-# Large, long-tenured Nasdaq-100 members that are extremely unlikely to have
-# ever been removed. Used to fingerprint the real constituents table by its
-# DATA rather than its header text, since Wikipedia's Nasdaq-100 page also
-# has a much bigger historical "index changes" table that also has columns
-# named "Ticker" (and would otherwise get mistaken for the real one).
-ANCHOR_TICKERS = {
-    "AAPL", "MSFT", "GOOGL", "AMZN", "META", "NVDA", "AVGO",
-    "COST", "PEP", "CSCO", "ADBE", "TXN", "INTC", "AMD", "QCOM",
-}
+NASDAQ100_URL = "https://www.slickcharts.com/nasdaq100"
 
 
 def get_nasdaq100_constituents() -> pd.DataFrame:
-    tables = fetch_tables(NASDAQ100_WIKI_URL)
+    tables = fetch_tables(NASDAQ100_URL)
 
-    best_table, best_col, best_score = None, None, 0
+    df = None
     for t in tables:
-        if t.shape[1] < 2:
-            continue
-        for col in t.columns:
-            try:
-                values = set(t[col].astype(str).str.strip().str.upper())
-            except Exception:
-                continue
-            score = len(values & ANCHOR_TICKERS)
-            if score > best_score:
-                best_table, best_col, best_score = t, col, score
-
-    if best_table is None or best_score < 8:
-        raise RuntimeError(
-            "Could not locate the Nasdaq-100 constituents table on Wikipedia "
-            f"(best anchor-ticker match: {best_score}/{len(ANCHOR_TICKERS)})"
-        )
-
-    df = best_table.copy()
-    df.columns = [_flatten_col(c) for c in df.columns]
-    ticker_col = _flatten_col(best_col)
-    df = df.rename(columns={ticker_col: "symbol"})
-
-    name_col = None
-    for c in df.columns:
-        if str(c).strip().lower() in ("company", "security", "name"):
-            name_col = c
+        cols = [str(c).strip().lower() for c in t.columns]
+        if "symbol" in cols and "company" in cols:
+            t = t.copy()
+            t.columns = cols
+            df = t
             break
-    if name_col is None:
-        cols = list(df.columns)
-        idx = cols.index("symbol")
-        name_col = cols[idx + 1] if idx + 1 < len(cols) else cols[0]
-    df = df.rename(columns={name_col: "name"})
 
+    if df is None:
+        raise RuntimeError("Could not locate the Nasdaq-100 constituents table on Slickcharts")
+
+    df = df.rename(columns={"company": "name"})
     df["symbol"] = df["symbol"].astype(str).str.strip().str.upper().str.replace(".", "-", regex=False)
+    df["name"] = df["name"].astype(str).str.strip()
     df = df[df["symbol"].str.match(r"^[A-Z]{1,6}(-[A-Z])?$")]
     df["index"] = "Nasdaq-100"
     return df[["symbol", "name", "index"]].drop_duplicates(subset="symbol")
