@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MA200 Scanner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0C1116;
+    --surface:#151B22;
+    --surface-raised:#1B232C;
+    --border:#26303A;
+    --text:#EDEFF2;
+    --text-muted:#8B96A3;
+    --accent:#E2A63B;
+    --pos:#4FAE8E;
+    --neg:#D9714F;
+    --pos-dim:rgba(79,174,142,0.15);
+    --neg-dim:rgba(217,113,79,0.15);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:'Inter',sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1000px;margin:0 auto;padding:32px 20px 80px;}
+
+  /* Hero */
+  .hero{
+    border-bottom:1px solid var(--border);
+    padding-bottom:24px;
+    margin-bottom:24px;
+  }
+  .eyebrow{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    color:var(--accent);
+    margin-bottom:10px;
+  }
+  h1{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:clamp(28px,5vw,42px);
+    margin:0 0 8px;
+    letter-spacing:-0.01em;
+  }
+  .sub{color:var(--text-muted);font-size:14.5px;max-width:56ch;line-height:1.5;margin:0 0 18px;}
+  .meta-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center;}
+  .pill{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    padding:5px 11px;
+    border-radius:20px;
+    border:1px solid var(--border);
+    color:var(--text-muted);
+    background:var(--surface);
+  }
+  .pill.sample{color:var(--accent);border-color:var(--accent);}
+
+  /* Controls */
+  .controls{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+    align-items:center;
+    margin-bottom:18px;
+  }
+  .seg{display:flex;border:1px solid var(--border);border-radius:8px;overflow:hidden;}
+  .seg button{
+    font-family:'Inter',sans-serif;
+    font-size:13px;
+    font-weight:600;
+    padding:8px 14px;
+    background:var(--surface);
+    color:var(--text-muted);
+    border:none;
+    border-right:1px solid var(--border);
+    cursor:pointer;
+  }
+  .seg button:last-child{border-right:none;}
+  .seg button.active{background:var(--surface-raised);color:var(--accent);}
+  .search{
+    flex:1;
+    min-width:160px;
+    background:var(--surface);
+    border:1px solid var(--border);
+    border-radius:8px;
+    padding:8px 12px;
+    color:var(--text);
+    font-family:'Inter',sans-serif;
+    font-size:13px;
+  }
+  .search::placeholder{color:var(--text-muted);}
+  .count{font-family:'IBM Plex Mono',monospace;font-size:12px;color:var(--text-muted);white-space:nowrap;}
+
+  /* Table */
+  .table-scroll{border:1px solid var(--border);border-radius:10px;overflow:hidden;}
+  table{width:100%;border-collapse:collapse;background:var(--surface);}
+  thead th{
+    text-align:left;
+    font-family:'Inter',sans-serif;
+    font-size:11px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    color:var(--text-muted);
+    padding:12px 14px;
+    border-bottom:1px solid var(--border);
+    cursor:pointer;
+    user-select:none;
+    white-space:nowrap;
+  }
+  thead th:hover{color:var(--text);}
+  thead th.sorted{color:var(--accent);}
+  tbody tr{border-bottom:1px solid var(--border);}
+  tbody tr:last-child{border-bottom:none;}
+  tbody tr:hover{background:var(--surface-raised);}
+  td{padding:12px 14px;font-size:13.5px;vertical-align:middle;}
+  td.sym{font-family:'IBM Plex Mono',monospace;font-weight:600;color:var(--accent);}
+  td.name{color:var(--text-muted);max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  td.num{font-family:'IBM Plex Mono',monospace;text-align:right;white-space:nowrap;}
+  td.badge-cell{white-space:nowrap;}
+  .idx-badge{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:10.5px;
+    padding:3px 7px;
+    border-radius:5px;
+    background:var(--surface-raised);
+    border:1px solid var(--border);
+    color:var(--text-muted);
+  }
+
+  /* Proximity gauge (signature element) */
+  .gauge-cell{width:190px;}
+  .gauge{position:relative;height:20px;width:170px;}
+  .gauge-track{
+    position:absolute;top:50%;left:0;right:0;height:2px;
+    background:var(--border);
+    transform:translateY(-50%);
+  }
+  .gauge-mid{
+    position:absolute;top:0;left:50%;width:1px;height:100%;
+    background:var(--text-muted);opacity:0.5;
+  }
+  .gauge-marker{
+    position:absolute;top:50%;width:9px;height:9px;border-radius:50%;
+    transform:translate(-50%,-50%);
+    box-shadow:0 0 0 3px var(--surface);
+  }
+  .gauge-marker.above{background:var(--pos);}
+  .gauge-marker.below{background:var(--neg);}
+  .diff-text{font-family:'IBM Plex Mono',monospace;font-size:12px;margin-left:8px;}
+  .diff-text.above{color:var(--pos);}
+  .diff-text.below{color:var(--neg);}
+  .gauge-row{display:flex;align-items:center;}
+
+  .empty{padding:40px;text-align:center;color:var(--text-muted);font-size:14px;}
+  footer{margin-top:22px;color:var(--text-muted);font-size:12px;text-align:center;}
+  footer a{color:var(--text-muted);}
+
+  @media (max-width:640px){
+    td.name, th.hide-mobile{display:none;}
+    .gauge-cell{width:120px;}
+    .gauge{width:96px;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="hero">
+    <div class="eyebrow">S&amp;P 500 + Nasdaq-100</div>
+    <h1>200-Day MA Scanner</h1>
+    <p class="sub">Tickers currently trading closest to their 200-day simple moving average — the line long-term trend-followers watch most.</p>
+    <div class="meta-row">
+      <span class="pill" id="refreshedPill">Loading...</span>
+      <span class="pill" id="thresholdPill">±5.0% threshold</span>
+      <span class="pill" id="universePill">— tickers scanned</span>
+    </div>
+  </div>
+
+  <div class="controls">
+    <div class="seg" id="idxFilter">
+      <button data-idx="all" class="active">All</button>
+      <button data-idx="S&P 500">S&amp;P 500</button>
+      <button data-idx="Nasdaq-100">Nasdaq-100</button>
+    </div>
+    <input class="search" id="search" type="text" placeholder="Search symbol or company…">
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="table-scroll">
+    <table>
+      <thead>
+        <tr>
+          <th data-key="symbol">Symbol</th>
+          <th class="hide-mobile" data-key="name">Company</th>
+          <th data-key="index">Index</th>
+          <th data-key="last_close">Last</th>
+          <th data-key="ma200">MA200</th>
+          <th data-key="pct_diff" class="sorted">Distance</th>
+        </tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <div class="empty" id="emptyMsg" style="display:none;">No tickers match your filters.</div>
+  </div>
+
+  <footer>
+    Generated by <code>scan.py</code>, refreshed twice daily via GitHub Actions · Not investment advice.
+  </footer>
+</div>
+
+<script>
+const SAMPLE_DATA = {"generated_at":"SAMPLE DATA - run scan.py to generate real results","threshold_pct":5.0,"universe_size":0,"is_sample":true,"matches":[
+  {"symbol":"AAPL","name":"Apple Inc.","index":"S&P 500 + Nasdaq-100","last_close":227.14,"ma200":224.80,"pct_diff":1.04,"position":"above"},
+  {"symbol":"JPM","name":"JPMorgan Chase & Co.","index":"S&P 500","last_close":214.02,"ma200":216.55,"pct_diff":-1.17,"position":"below"},
+  {"symbol":"COST","name":"Costco Wholesale Corp.","index":"S&P 500 + Nasdaq-100","last_close":918.40,"ma200":901.10,"pct_diff":1.92,"position":"above"},
+  {"symbol":"PEP","name":"PepsiCo, Inc.","index":"S&P 500 + Nasdaq-100","last_close":168.55,"ma200":172.30,"pct_diff":-2.18,"position":"below"},
+  {"symbol":"ADBE","name":"Adobe Inc.","index":"S&P 500 + Nasdaq-100","last_close":486.20,"ma200":502.75,"pct_diff":-3.29,"position":"below"},
+  {"symbol":"TXN","name":"Texas Instruments Inc.","index":"S&P 500 + Nasdaq-100","last_close":199.80,"ma200":193.10,"pct_diff":3.47,"position":"above"},
+  {"symbol":"SBUX","name":"Starbucks Corp.","index":"S&P 500 + Nasdaq-100","last_close":94.60,"ma200":98.90,"pct_diff":-4.35,"position":"below"},
+  {"symbol":"MDLZ","name":"Mondelez International","index":"S&P 500 + Nasdaq-100","last_close":66.10,"ma200":63.40,"pct_diff":4.26,"position":"above"},
+  {"symbol":"AMD","name":"Advanced Micro Devices","index":"S&P 500 + Nasdaq-100","last_close":141.90,"ma200":148.60,"pct_diff":-4.51,"position":"below"},
+  {"symbol":"GILD","name":"Gilead Sciences, Inc.","index":"S&P 500 + Nasdaq-100","last_close":92.30,"ma200":88.10,"pct_diff":4.77,"position":"above"},
+  {"symbol":"CSCO","name":"Cisco Systems, Inc.","index":"S&P 500 + Nasdaq-100","last_close":56.80,"ma200":59.55,"pct_diff":-4.62,"position":"below"},
+  {"symbol":"AMGN","name":"Amgen Inc.","index":"S&P 500 + Nasdaq-100","last_close":291.40,"ma200":278.90,"pct_diff":4.48,"position":"above"},
+  {"symbol":"BKNG","name":"Booking Holdings Inc.","index":"S&P 500 + Nasdaq-100","last_close":4820.00,"ma200":4655.00,"pct_diff":3.54,"position":"above"},
+  {"symbol":"MU","name":"Micron Technology, Inc.","index":"S&P 500 + Nasdaq-100","last_close":108.30,"ma200":113.20,"pct_diff":-4.33,"position":"below"}
+]};
+
+let state = { data: null, idx: 'all', q: '', sortKey: 'pct_diff', sortAsc: true };
+
+async function loadData(){
+  try{
+    const res = await fetch('scan_results.json', {cache:'no-store'});
+    if(!res.ok) throw new Error('missing file');
+    return await res.json();
+  }catch(e){
+    return SAMPLE_DATA;
+  }
+}
+
+function fmtMoney(n){
+  return '$' + n.toLocaleString(undefined,{minimumFractionDigits:2,maximumFractionDigits:2});
+}
+
+function render(){
+  const d = state.data;
+  const threshold = d.threshold_pct ?? 5.0;
+  document.getElementById('thresholdPill').textContent = `±${threshold.toFixed(1)}% threshold`;
+  document.getElementById('universePill').textContent = d.universe_size ? `${d.universe_size} tickers scanned` : `${d.matches.length} matches shown`;
+
+  const refreshedPill = document.getElementById('refreshedPill');
+  if(d.is_sample){
+    refreshedPill.textContent = 'Sample data — run scan.py for live results';
+    refreshedPill.classList.add('sample');
+  } else {
+    const dt = new Date(d.generated_at);
+    refreshedPill.textContent = 'Refreshed ' + dt.toLocaleString();
+    refreshedPill.classList.remove('sample');
+  }
+
+  let rows = d.matches.filter(r => {
+    const idxOk = state.idx === 'all' || r.index.includes(state.idx);
+    const q = state.q.trim().toLowerCase();
+    const qOk = !q || r.symbol.toLowerCase().includes(q) || r.name.toLowerCase().includes(q);
+    return idxOk && qOk;
+  });
+
+  rows.sort((a,b) => {
+    let av = a[state.sortKey], bv = b[state.sortKey];
+    if(state.sortKey === 'pct_diff'){ av = Math.abs(av); bv = Math.abs(bv); }
+    if(typeof av === 'string') return state.sortAsc ? av.localeCompare(bv) : bv.localeCompare(av);
+    return state.sortAsc ? av - bv : bv - av;
+  });
+
+  document.getElementById('count').textContent = `${rows.length} shown`;
+  document.getElementById('emptyMsg').style.display = rows.length ? 'none' : 'block';
+
+  const tbody = document.getElementById('rows');
+  tbody.innerHTML = rows.map(r => {
+    const pct = r.pct_diff;
+    const clampPct = Math.max(-threshold, Math.min(threshold, pct));
+    const posPercent = 50 + (clampPct / threshold) * 50; // 0..100 across the gauge
+    const cls = r.position;
+    return `<tr>
+      <td class="sym">${r.symbol}</td>
+      <td class="name">${r.name}</td>
+      <td class="badge-cell"><span class="idx-badge">${r.index}</span></td>
+      <td class="num">${fmtMoney(r.last_close)}</td>
+      <td class="num">${fmtMoney(r.ma200)}</td>
+      <td class="gauge-cell">
+        <div class="gauge-row">
+          <div class="gauge">
+            <div class="gauge-track"></div>
+            <div class="gauge-mid"></div>
+            <div class="gauge-marker ${cls}" style="left:${posPercent}%;"></div>
+          </div>
+          <span class="diff-text ${cls}">${pct > 0 ? '+' : ''}${pct.toFixed(2)}%</span>
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+}
+
+document.getElementById('idxFilter').addEventListener('click', e => {
+  const btn = e.target.closest('button');
+  if(!btn) return;
+  [...document.getElementById('idxFilter').children].forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  state.idx = btn.dataset.idx;
+  render();
+});
+
+document.getElementById('search').addEventListener('input', e => {
+  state.q = e.target.value;
+  render();
+});
+
+document.querySelectorAll('thead th[data-key]').forEach(th => {
+  th.addEventListener('click', () => {
+    const key = th.dataset.key;
+    if(state.sortKey === key){ state.sortAsc = !state.sortAsc; }
+    else { state.sortKey = key; state.sortAsc = true; }
+    document.querySelectorAll('thead th').forEach(h => h.classList.remove('sorted'));
+    th.classList.add('sorted');
+    render();
+  });
+});
+
+loadData().then(d => { state.data = d; render(); });
+</script>
+</body>
+</html>

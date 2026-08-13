@@ -1,0 +1,22 @@
+{
+  "generated_at": "SAMPLE DATA - run scan.py to generate real results",
+  "threshold_pct": 5.0,
+  "universe_size": 0,
+  "is_sample": true,
+  "matches": [
+    {"symbol": "AAPL", "name": "Apple Inc.", "index": "S&P 500 + Nasdaq-100", "last_close": 227.14, "ma200": 224.80, "pct_diff": 1.04, "position": "above"},
+    {"symbol": "JPM",  "name": "JPMorgan Chase & Co.", "index": "S&P 500", "last_close": 214.02, "ma200": 216.55, "pct_diff": -1.17, "position": "below"},
+    {"symbol": "COST", "name": "Costco Wholesale Corp.", "index": "S&P 500 + Nasdaq-100", "last_close": 918.40, "ma200": 901.10, "pct_diff": 1.92, "position": "above"},
+    {"symbol": "PEP",  "name": "PepsiCo, Inc.", "index": "S&P 500 + Nasdaq-100", "last_close": 168.55, "ma200": 172.30, "pct_diff": -2.18, "position": "below"},
+    {"symbol": "ADBE", "name": "Adobe Inc.", "index": "S&P 500 + Nasdaq-100", "last_close": 486.20, "ma200": 502.75, "pct_diff": -3.29, "position": "below"},
+    {"symbol": "TXN",  "name": "Texas Instruments Inc.", "index": "S&P 500 + Nasdaq-100", "last_close": 199.80, "ma200": 193.10, "pct_diff": 3.47, "position": "above"},
+    {"symbol": "SBUX", "name": "Starbucks Corp.", "index": "S&P 500 + Nasdaq-100", "last_close": 94.60, "ma200": 98.90, "pct_diff": -4.35, "position": "below"},
+    {"symbol": "MDLZ", "name": "Mondelez International", "index": "S&P 500 + Nasdaq-100", "last_close": 66.10, "ma200": 63.40, "pct_diff": 4.26, "position": "above"},
+    {"symbol": "AMD",  "name": "Advanced Micro Devices", "index": "S&P 500 + Nasdaq-100", "last_close": 141.90, "ma200": 148.60, "pct_diff": -4.51, "position": "below"},
+    {"symbol": "GILD", "name": "Gilead Sciences, Inc.", "index": "S&P 500 + Nasdaq-100", "last_close": 92.30, "ma200": 88.10, "pct_diff": 4.77, "position": "above"},
+    {"symbol": "CSCO", "name": "Cisco Systems, Inc.", "index": "S&P 500 + Nasdaq-100", "last_close": 56.80, "ma200": 59.55, "pct_diff": -4.62, "position": "below"},
+    {"symbol": "AMGN", "name": "Amgen Inc.", "index": "S&P 500 + Nasdaq-100", "last_close": 291.40, "ma200": 278.90, "pct_diff": 4.48, "position": "above"},
+    {"symbol": "BKNG", "name": "Booking Holdings Inc.", "index": "S&P 500 + Nasdaq-100", "last_close": 4820.00, "ma200": 4655.00, "pct_diff": 3.54, "position": "above"},
+    {"symbol": "MU",   "name": "Micron Technology, Inc.", "index": "S&P 500 + Nasdaq-100", "last_close": 108.30, "ma200": 113.20, "pct_diff": -4.33, "position": "below"}
+  ]
+}

@@ -1,0 +1,46 @@
+# Place this file at: .github/workflows/scan.yml  (inside your repo)
+#
+# Runs the 200-day MA scan twice a day on weekdays and commits the
+# updated scan_results.json, which dashboard.html reads and displays.
+#
+# Cron times are in UTC. US market hours (9:30am-4:00pm ET) are:
+#   ET = UTC-4 during daylight saving (roughly Mar-Nov)
+#   ET = UTC-5 during standard time  (roughly Nov-Mar)
+# The two schedules below are tuned for EDT (UTC-4, summer). Shift them
+# by one hour for EST (UTC-5, winter), or just also trigger manually
+# any time from the Actions tab.
+
+name: 200-Day MA Scan
+
+on:
+  schedule:
+    - cron: '15 15 * * 1-5'   # ~10:15am ET - mid-morning scan
+    - cron: '45 19 * * 1-5'   # ~3:45pm ET  - pre-close scan
+  workflow_dispatch: {}         # lets you trigger it manually from GitHub
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scanner
+        run: python scan.py --threshold 5.0 --output scan_results.json
+
+      - name: Commit updated results
+        run: |
+          git config user.name "ma200-scanner-bot"
+          git config user.email "actions@github.com"
+          git add scan_results.json
+          git diff --cached --quiet || git commit -m "Update scan results $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
