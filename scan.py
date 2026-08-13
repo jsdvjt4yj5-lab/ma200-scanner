@@ -52,23 +52,39 @@ def get_sp500_constituents() -> pd.DataFrame:
     return df[["symbol", "name", "index"]]
 
 
+def _flatten_col(c) -> str:
+    if isinstance(c, tuple):
+        parts = [str(x) for x in c if x and "Unnamed" not in str(x)]
+        return " ".join(parts) if parts else str(c[0])
+    return str(c)
+
+
 def get_nasdaq100_constituents() -> pd.DataFrame:
     tables = fetch_tables(NASDAQ100_WIKI_URL)
-    df = None
+
+    candidates = []
     for t in tables:
-        cols = [str(c).lower() for c in t.columns]
-        if "ticker" in cols or "symbol" in cols:
-            df = t
-            break
-    if df is None:
+        flat_cols = [_flatten_col(c).strip().lower() for c in t.columns]
+        # Substring match (not exact) so footnote markers like "Ticker[a]"
+        # still match. Wikipedia's Nasdaq-100 page also has a smaller
+        # "recent index changes" table with its own Ticker column, so we
+        # collect every match and pick the biggest one below rather than
+        # just the first.
+        if any("ticker" in c or "symbol" in c for c in flat_cols):
+            t = t.copy()
+            t.columns = flat_cols
+            candidates.append(t)
+
+    if not candidates:
         raise RuntimeError("Could not locate the Nasdaq-100 constituents table on Wikipedia")
+
+    df = max(candidates, key=len)
 
     rename_map = {}
     for c in df.columns:
-        lc = str(c).lower()
-        if lc in ("ticker", "symbol"):
+        if "ticker" in c or "symbol" in c:
             rename_map[c] = "symbol"
-        elif lc in ("company", "name"):
+        elif "company" in c or "security" in c or c == "name":
             rename_map[c] = "name"
     df = df.rename(columns=rename_map)
     df["symbol"] = df["symbol"].astype(str).str.replace(".", "-", regex=False)
@@ -177,4 +193,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
