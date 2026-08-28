@@ -1,1293 +1,1383 @@
 {
-  "generated_at": "2026-08-28T02:18:25.914818+00:00",
+  "generated_at": "2026-08-28T21:59:10.994985+00:00",
   "threshold_pct": 5.0,
   "universe_size": 518,
   "matches": [
     {
-      "symbol": "CPT",
-      "name": "Camden Property Trust",
-      "index": "S&P 500",
-      "last_close": 105.79,
-      "ma200": 105.79,
-      "pct_diff": -0.0,
-      "position": "below"
-    },
-    {
-      "symbol": "MSCI",
-      "name": "MSCI",
-      "index": "S&P 500",
-      "last_close": 569.15,
-      "ma200": 569.22,
-      "pct_diff": -0.01,
-      "position": "below"
-    },
-    {
-      "symbol": "STE",
-      "name": "Steris",
-      "index": "S&P 500",
-      "last_close": 232.97,
-      "ma200": 233.14,
-      "pct_diff": -0.07,
-      "position": "below"
-    },
-    {
-      "symbol": "GDDY",
-      "name": "GoDaddy",
-      "index": "S&P 500",
-      "last_close": 96.98,
-      "ma200": 97.07,
-      "pct_diff": -0.09,
-      "position": "below"
-    },
-    {
-      "symbol": "CBRE",
-      "name": "CBRE Group",
-      "index": "S&P 500",
-      "last_close": 147.22,
-      "ma200": 147.37,
-      "pct_diff": -0.1,
-      "position": "below"
-    },
-    {
-      "symbol": "CI",
-      "name": "Cigna",
-      "index": "S&P 500",
-      "last_close": 277.67,
-      "ma200": 277.33,
-      "pct_diff": 0.12,
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 368.79,
+      "ma200": 368.53,
+      "pct_diff": 0.07,
       "position": "above"
     },
     {
-      "symbol": "AEE",
-      "name": "Ameren",
+      "symbol": "YUM",
+      "name": "Yum! Brands",
       "index": "S&P 500",
-      "last_close": 106.75,
-      "ma200": 106.89,
-      "pct_diff": -0.13,
+      "last_close": 153.86,
+      "ma200": 153.98,
+      "pct_diff": -0.08,
       "position": "below"
     },
     {
       "symbol": "COR",
       "name": "Cencora",
       "index": "S&P 500",
-      "last_close": 321.23,
-      "ma200": 321.65,
-      "pct_diff": -0.13,
-      "position": "below"
-    },
-    {
-      "symbol": "CMCSA",
-      "name": "Comcast",
-      "index": "Nasdaq-100 + S&P 500",
-      "last_close": 26.41,
-      "ma200": 26.37,
-      "pct_diff": 0.14,
-      "position": "above"
-    },
-    {
-      "symbol": "UBER",
-      "name": "Uber",
-      "index": "S&P 500",
-      "last_close": 76.95,
-      "ma200": 76.82,
-      "pct_diff": 0.17,
-      "position": "above"
-    },
-    {
-      "symbol": "AIG",
-      "name": "American International Group",
-      "index": "S&P 500",
-      "last_close": 76.63,
-      "ma200": 76.78,
-      "pct_diff": -0.19,
-      "position": "below"
-    },
-    {
-      "symbol": "RCL",
-      "name": "Royal Caribbean Group",
-      "index": "S&P 500",
-      "last_close": 284.8,
-      "ma200": 285.77,
-      "pct_diff": -0.34,
-      "position": "below"
-    },
-    {
-      "symbol": "GEHC",
-      "name": "GE HealthCare",
-      "index": "Nasdaq-100 + S&P 500",
-      "last_close": 72.48,
-      "ma200": 72.76,
-      "pct_diff": -0.39,
-      "position": "below"
-    },
-    {
-      "symbol": "BG",
-      "name": "Bunge Global",
-      "index": "S&P 500",
-      "last_close": 111.57,
-      "ma200": 112.16,
-      "pct_diff": -0.53,
-      "position": "below"
-    },
-    {
-      "symbol": "MCHP",
-      "name": "Microchip Technology",
-      "index": "Nasdaq-100 + S&P 500",
-      "last_close": 75.49,
-      "ma200": 75.97,
-      "pct_diff": -0.63,
-      "position": "below"
-    },
-    {
-      "symbol": "HBAN",
-      "name": "Huntington Bancshares",
-      "index": "S&P 500",
-      "last_close": 16.86,
-      "ma200": 16.75,
-      "pct_diff": 0.67,
-      "position": "above"
-    },
-    {
-      "symbol": "AMT",
-      "name": "American Tower",
-      "index": "S&P 500",
-      "last_close": 174.16,
-      "ma200": 175.39,
-      "pct_diff": -0.7,
-      "position": "below"
-    },
-    {
-      "symbol": "AXP",
-      "name": "American Express",
-      "index": "S&P 500",
-      "last_close": 334.16,
-      "ma200": 336.7,
-      "pct_diff": -0.75,
-      "position": "below"
-    },
-    {
-      "symbol": "WRB",
-      "name": "W. R. Berkley Corporation",
-      "index": "S&P 500",
-      "last_close": 68.34,
-      "ma200": 68.86,
-      "pct_diff": -0.76,
-      "position": "below"
-    },
-    {
-      "symbol": "REG",
-      "name": "Regency Centers",
-      "index": "S&P 500",
-      "last_close": 75.46,
-      "ma200": 74.87,
-      "pct_diff": 0.78,
+      "last_close": 322.03,
+      "ma200": 321.45,
+      "pct_diff": 0.18,
       "position": "above"
     },
     {
       "symbol": "MAA",
       "name": "Mid-America Apartment Communities",
       "index": "S&P 500",
-      "last_close": 128.79,
-      "ma200": 129.83,
-      "pct_diff": -0.8,
-      "position": "below"
-    },
-    {
-      "symbol": "AVGO",
-      "name": "Broadcom",
-      "index": "Nasdaq-100 + S&P 500",
-      "last_close": 371.54,
-      "ma200": 368.47,
-      "pct_diff": 0.83,
-      "position": "above"
-    },
-    {
-      "symbol": "FE",
-      "name": "FirstEnergy",
-      "index": "S&P 500",
-      "last_close": 46.25,
-      "ma200": 46.67,
-      "pct_diff": -0.91,
-      "position": "below"
-    },
-    {
-      "symbol": "XEL",
-      "name": "Xcel Energy",
-      "index": "Nasdaq-100 + S&P 500",
-      "last_close": 77.16,
-      "ma200": 78.0,
-      "pct_diff": -1.08,
-      "position": "below"
-    },
-    {
-      "symbol": "WFC",
-      "name": "Wells Fargo",
-      "index": "S&P 500",
-      "last_close": 84.97,
-      "ma200": 84.03,
-      "pct_diff": 1.12,
-      "position": "above"
-    },
-    {
-      "symbol": "BF-B",
-      "name": "Brown\u2013Forman",
-      "index": "S&P 500",
-      "last_close": 27.28,
-      "ma200": 26.97,
-      "pct_diff": 1.13,
-      "position": "above"
-    },
-    {
-      "symbol": "L",
-      "name": "Loews Corporation",
-      "index": "S&P 500",
-      "last_close": 109.82,
-      "ma200": 108.55,
-      "pct_diff": 1.17,
-      "position": "above"
-    },
-    {
-      "symbol": "DG",
-      "name": "Dollar General",
-      "index": "S&P 500",
-      "last_close": 125.89,
-      "ma200": 124.39,
-      "pct_diff": 1.2,
-      "position": "above"
-    },
-    {
-      "symbol": "DUK",
-      "name": "Duke Energy",
-      "index": "S&P 500",
-      "last_close": 120.84,
-      "ma200": 122.32,
-      "pct_diff": -1.21,
-      "position": "below"
-    },
-    {
-      "symbol": "PNW",
-      "name": "Pinnacle West Capital",
-      "index": "S&P 500",
-      "last_close": 97.89,
-      "ma200": 96.71,
-      "pct_diff": 1.22,
-      "position": "above"
-    },
-    {
-      "symbol": "ED",
-      "name": "Consolidated Edison",
-      "index": "S&P 500",
-      "last_close": 106.69,
-      "ma200": 105.39,
-      "pct_diff": 1.23,
-      "position": "above"
-    },
-    {
-      "symbol": "WY",
-      "name": "Weyerhaeuser",
-      "index": "S&P 500",
-      "last_close": 23.7,
-      "ma200": 24.0,
-      "pct_diff": -1.24,
-      "position": "below"
-    },
-    {
-      "symbol": "QCOM",
-      "name": "Qualcomm",
-      "index": "Nasdaq-100 + S&P 500",
-      "last_close": 164.78,
-      "ma200": 167.08,
-      "pct_diff": -1.38,
-      "position": "below"
-    },
-    {
-      "symbol": "EFX",
-      "name": "Equifax",
-      "index": "S&P 500",
-      "last_close": 190.36,
-      "ma200": 187.73,
-      "pct_diff": 1.4,
-      "position": "above"
-    },
-    {
-      "symbol": "GOOG",
-      "name": "Alphabet Inc. (Class C)",
-      "index": "Nasdaq-100 + S&P 500",
-      "last_close": 337.71,
-      "ma200": 333.0,
-      "pct_diff": 1.41,
-      "position": "above"
-    },
-    {
-      "symbol": "MDT",
-      "name": "Medtronic",
-      "index": "S&P 500",
-      "last_close": 89.97,
-      "ma200": 88.7,
-      "pct_diff": 1.43,
-      "position": "above"
-    },
-    {
-      "symbol": "SPGI",
-      "name": "S&P Global",
-      "index": "S&P 500",
-      "last_close": 435.39,
-      "ma200": 428.85,
-      "pct_diff": 1.52,
-      "position": "above"
-    },
-    {
-      "symbol": "UDR",
-      "name": "UDR, Inc.",
-      "index": "S&P 500",
-      "last_close": 37.08,
-      "ma200": 36.48,
-      "pct_diff": 1.65,
-      "position": "above"
-    },
-    {
-      "symbol": "PHM",
-      "name": "PulteGroup",
-      "index": "S&P 500",
-      "last_close": 126.75,
-      "ma200": 124.69,
-      "pct_diff": 1.66,
-      "position": "above"
-    },
-    {
-      "symbol": "LIN",
-      "name": "Linde plc",
-      "index": "Nasdaq-100 + S&P 500",
-      "last_close": 485.35,
-      "ma200": 476.88,
-      "pct_diff": 1.78,
-      "position": "above"
-    },
-    {
-      "symbol": "DOW",
-      "name": "Dow Inc.",
-      "index": "S&P 500",
-      "last_close": 30.33,
-      "ma200": 30.89,
-      "pct_diff": -1.8,
-      "position": "below"
-    },
-    {
-      "symbol": "HIG",
-      "name": "Hartford (The)",
-      "index": "S&P 500",
-      "last_close": 137.8,
-      "ma200": 135.37,
-      "pct_diff": 1.8,
-      "position": "above"
-    },
-    {
-      "symbol": "PG",
-      "name": "Procter & Gamble",
-      "index": "S&P 500",
-      "last_close": 143.14,
-      "ma200": 145.77,
-      "pct_diff": -1.81,
-      "position": "below"
-    },
-    {
-      "symbol": "CVNA",
-      "name": "Carvana",
-      "index": "S&P 500",
-      "last_close": 74.09,
-      "ma200": 72.76,
-      "pct_diff": 1.83,
-      "position": "above"
-    },
-    {
-      "symbol": "LNT",
-      "name": "Alliant Energy",
-      "index": "S&P 500",
-      "last_close": 68.21,
-      "ma200": 69.51,
-      "pct_diff": -1.86,
-      "position": "below"
-    },
-    {
-      "symbol": "VRSK",
-      "name": "Verisk Analytics",
-      "index": "S&P 500",
-      "last_close": 191.02,
-      "ma200": 194.64,
-      "pct_diff": -1.86,
+      "last_close": 129.61,
+      "ma200": 129.85,
+      "pct_diff": -0.18,
       "position": "below"
     },
     {
       "symbol": "SBAC",
       "name": "SBA Communications",
       "index": "S&P 500",
-      "last_close": 186.96,
-      "ma200": 190.62,
-      "pct_diff": -1.92,
-      "position": "below"
-    },
-    {
-      "symbol": "AEP",
-      "name": "American Electric Power",
-      "index": "Nasdaq-100 + S&P 500",
-      "last_close": 122.71,
-      "ma200": 125.13,
-      "pct_diff": -1.94,
-      "position": "below"
-    },
-    {
-      "symbol": "GOOGL",
-      "name": "Alphabet Inc. (Class A)",
-      "index": "Nasdaq-100 + S&P 500",
-      "last_close": 340.65,
-      "ma200": 334.04,
-      "pct_diff": 1.98,
+      "last_close": 190.95,
+      "ma200": 190.61,
+      "pct_diff": 0.18,
       "position": "above"
     },
     {
-      "symbol": "O",
-      "name": "Realty Income",
+      "symbol": "AIG",
+      "name": "American International Group",
       "index": "S&P 500",
-      "last_close": 61.8,
-      "ma200": 60.6,
-      "pct_diff": 1.99,
+      "last_close": 76.93,
+      "ma200": 76.78,
+      "pct_diff": 0.19,
       "position": "above"
     },
     {
-      "symbol": "AKAM",
-      "name": "Akamai Technologies",
+      "symbol": "MSCI",
+      "name": "MSCI",
       "index": "S&P 500",
-      "last_close": 111.24,
-      "ma200": 109.04,
-      "pct_diff": 2.01,
+      "last_close": 570.76,
+      "ma200": 569.23,
+      "pct_diff": 0.27,
       "position": "above"
     },
     {
-      "symbol": "TTWO",
-      "name": "Take-Two Interactive",
-      "index": "Nasdaq-100 + S&P 500",
-      "last_close": 233.0,
-      "ma200": 228.41,
-      "pct_diff": 2.01,
-      "position": "above"
-    },
-    {
-      "symbol": "MOS",
-      "name": "Mosaic Company (The)",
-      "index": "S&P 500",
-      "last_close": 23.76,
-      "ma200": 24.26,
-      "pct_diff": -2.06,
-      "position": "below"
-    },
-    {
-      "symbol": "YUM",
-      "name": "Yum! Brands",
-      "index": "S&P 500",
-      "last_close": 150.75,
-      "ma200": 153.94,
-      "pct_diff": -2.07,
-      "position": "below"
-    },
-    {
-      "symbol": "FERG",
-      "name": "Ferguson Enterprises",
-      "index": "S&P 500",
-      "last_close": 233.26,
-      "ma200": 238.37,
-      "pct_diff": -2.14,
-      "position": "below"
-    },
-    {
-      "symbol": "EQT",
-      "name": "EQT Corporation",
-      "index": "S&P 500",
-      "last_close": 54.77,
-      "ma200": 55.98,
-      "pct_diff": -2.16,
-      "position": "below"
-    },
-    {
-      "symbol": "SO",
-      "name": "Southern Company",
-      "index": "S&P 500",
-      "last_close": 89.05,
-      "ma200": 91.04,
-      "pct_diff": -2.19,
-      "position": "below"
-    },
-    {
-      "symbol": "CME",
-      "name": "CME Group",
-      "index": "S&P 500",
-      "last_close": 280.94,
-      "ma200": 274.81,
-      "pct_diff": 2.23,
-      "position": "above"
-    },
-    {
-      "symbol": "ES",
-      "name": "Eversource Energy",
-      "index": "S&P 500",
-      "last_close": 70.92,
-      "ma200": 69.35,
-      "pct_diff": 2.26,
-      "position": "above"
-    },
-    {
-      "symbol": "DD",
-      "name": "DuPont",
-      "index": "S&P 500",
-      "last_close": 138.8,
-      "ma200": 135.7,
-      "pct_diff": 2.28,
-      "position": "above"
-    },
-    {
-      "symbol": "BRK-B",
-      "name": "Berkshire Hathaway",
-      "index": "S&P 500",
-      "last_close": 503.7,
-      "ma200": 492.37,
-      "pct_diff": 2.3,
-      "position": "above"
-    },
-    {
-      "symbol": "ETR",
-      "name": "Entergy",
-      "index": "S&P 500",
-      "last_close": 106.49,
-      "ma200": 104.07,
-      "pct_diff": 2.32,
-      "position": "above"
-    },
-    {
-      "symbol": "CLX",
-      "name": "Clorox",
-      "index": "S&P 500",
-      "last_close": 103.63,
-      "ma200": 101.25,
-      "pct_diff": 2.35,
-      "position": "above"
-    },
-    {
-      "symbol": "COST",
-      "name": "Costco",
-      "index": "Nasdaq-100 + S&P 500",
-      "last_close": 934.66,
-      "ma200": 957.3,
-      "pct_diff": -2.37,
-      "position": "below"
-    },
-    {
-      "symbol": "EXE",
-      "name": "Expand Energy",
-      "index": "S&P 500",
-      "last_close": 98.0,
-      "ma200": 100.42,
-      "pct_diff": -2.41,
-      "position": "below"
-    },
-    {
-      "symbol": "CTSH",
-      "name": "Cognizant",
-      "index": "S&P 500",
-      "last_close": 63.76,
-      "ma200": 62.24,
-      "pct_diff": 2.44,
-      "position": "above"
-    },
-    {
-      "symbol": "DHI",
-      "name": "D. R. Horton",
-      "index": "S&P 500",
-      "last_close": 145.26,
-      "ma200": 149.01,
-      "pct_diff": -2.52,
-      "position": "below"
-    },
-    {
-      "symbol": "PSKY",
-      "name": "Paramount Skydance Corporation",
-      "index": "S&P 500",
-      "last_close": 10.8,
-      "ma200": 11.08,
-      "pct_diff": -2.52,
-      "position": "below"
-    },
-    {
-      "symbol": "TDY",
-      "name": "Teledyne Technologies",
-      "index": "S&P 500",
-      "last_close": 626.5,
-      "ma200": 610.8,
-      "pct_diff": 2.57,
-      "position": "above"
-    },
-    {
-      "symbol": "EME",
-      "name": "Emcor",
-      "index": "S&P 500",
-      "last_close": 775.04,
-      "ma200": 755.34,
-      "pct_diff": 2.61,
-      "position": "above"
-    },
-    {
-      "symbol": "ERIE",
-      "name": "Erie Indemnity",
-      "index": "S&P 500",
-      "last_close": 259.44,
-      "ma200": 252.84,
-      "pct_diff": 2.61,
-      "position": "above"
-    },
-    {
-      "symbol": "EXR",
-      "name": "Extra Space Storage",
-      "index": "S&P 500",
-      "last_close": 142.79,
-      "ma200": 139.13,
-      "pct_diff": 2.63,
-      "position": "above"
-    },
-    {
-      "symbol": "WM",
-      "name": "Waste Management",
-      "index": "S&P 500",
-      "last_close": 217.76,
-      "ma200": 223.64,
-      "pct_diff": -2.63,
-      "position": "below"
-    },
-    {
-      "symbol": "RSG",
-      "name": "Republic Services",
-      "index": "S&P 500",
-      "last_close": 219.27,
-      "ma200": 213.62,
-      "pct_diff": 2.64,
-      "position": "above"
-    },
-    {
-      "symbol": "TT",
-      "name": "Trane Technologies",
-      "index": "S&P 500",
-      "last_close": 454.31,
-      "ma200": 442.59,
-      "pct_diff": 2.65,
-      "position": "above"
-    },
-    {
-      "symbol": "TYL",
-      "name": "Tyler Technologies",
-      "index": "S&P 500",
-      "last_close": 369.88,
-      "ma200": 360.34,
-      "pct_diff": 2.65,
-      "position": "above"
-    },
-    {
-      "symbol": "COIN",
-      "name": "Coinbase",
-      "index": "S&P 500",
-      "last_close": 190.72,
-      "ma200": 196.07,
-      "pct_diff": -2.73,
-      "position": "below"
-    },
-    {
-      "symbol": "HUBB",
-      "name": "Hubbell Incorporated",
-      "index": "S&P 500",
-      "last_close": 470.28,
-      "ma200": 483.64,
-      "pct_diff": -2.76,
-      "position": "below"
-    },
-    {
-      "symbol": "DTE",
-      "name": "DTE Energy",
-      "index": "S&P 500",
-      "last_close": 136.24,
-      "ma200": 140.13,
-      "pct_diff": -2.78,
-      "position": "below"
-    },
-    {
-      "symbol": "LMT",
-      "name": "Lockheed Martin",
-      "index": "S&P 500",
-      "last_close": 565.89,
-      "ma200": 550.56,
-      "pct_diff": 2.78,
-      "position": "above"
-    },
-    {
-      "symbol": "ODFL",
-      "name": "Old Dominion",
-      "index": "Nasdaq-100 + S&P 500",
-      "last_close": 200.06,
-      "ma200": 194.62,
-      "pct_diff": 2.79,
-      "position": "above"
-    },
-    {
-      "symbol": "ULTA",
-      "name": "Ulta Beauty",
-      "index": "S&P 500",
-      "last_close": 540.1,
-      "ma200": 555.67,
-      "pct_diff": -2.8,
-      "position": "below"
-    },
-    {
-      "symbol": "AFL",
-      "name": "Aflac",
-      "index": "S&P 500",
-      "last_close": 116.58,
-      "ma200": 113.34,
-      "pct_diff": 2.86,
-      "position": "above"
-    },
-    {
-      "symbol": "EVRG",
-      "name": "Evergy",
-      "index": "S&P 500",
-      "last_close": 81.42,
-      "ma200": 79.15,
-      "pct_diff": 2.86,
-      "position": "above"
-    },
-    {
-      "symbol": "BRO",
-      "name": "Brown & Brown",
-      "index": "S&P 500",
-      "last_close": 71.39,
-      "ma200": 69.34,
-      "pct_diff": 2.95,
-      "position": "above"
-    },
-    {
-      "symbol": "MSTR",
-      "name": "Strategy Inc Common Stock Class A",
-      "index": "Nasdaq-100",
-      "last_close": 137.4,
-      "ma200": 141.6,
-      "pct_diff": -2.97,
-      "position": "below"
-    },
-    {
-      "symbol": "ACGL",
-      "name": "Arch Capital Group",
-      "index": "S&P 500",
-      "last_close": 98.76,
-      "ma200": 95.89,
-      "pct_diff": 3.0,
-      "position": "above"
-    },
-    {
-      "symbol": "T",
-      "name": "AT&T",
-      "index": "S&P 500",
-      "last_close": 25.43,
-      "ma200": 24.65,
-      "pct_diff": 3.15,
-      "position": "above"
-    },
-    {
-      "symbol": "HON",
-      "name": "Honeywell Technologies",
-      "index": "Nasdaq-100 + S&P 500",
-      "last_close": 220.39,
-      "ma200": 227.8,
-      "pct_diff": -3.25,
-      "position": "below"
-    },
-    {
-      "symbol": "CMI",
-      "name": "Cummins",
-      "index": "S&P 500",
-      "last_close": 573.87,
-      "ma200": 593.45,
-      "pct_diff": -3.3,
-      "position": "below"
-    },
-    {
-      "symbol": "DIS",
-      "name": "Walt Disney Company (The)",
-      "index": "S&P 500",
-      "last_close": 106.82,
-      "ma200": 103.35,
-      "pct_diff": 3.36,
-      "position": "above"
-    },
-    {
-      "symbol": "HAL",
-      "name": "Halliburton",
-      "index": "S&P 500",
-      "last_close": 35.49,
-      "ma200": 34.34,
-      "pct_diff": 3.36,
-      "position": "above"
-    },
-    {
-      "symbol": "COO",
-      "name": "Cooper Companies (The)",
-      "index": "S&P 500",
-      "last_close": 70.96,
-      "ma200": 73.43,
-      "pct_diff": -3.37,
-      "position": "below"
-    },
-    {
-      "symbol": "AES",
-      "name": "AES Corporation",
-      "index": "S&P 500",
-      "last_close": 14.75,
-      "ma200": 14.27,
-      "pct_diff": 3.39,
-      "position": "above"
-    },
-    {
-      "symbol": "CARR",
-      "name": "Carrier Global",
-      "index": "S&P 500",
-      "last_close": 58.84,
-      "ma200": 60.93,
-      "pct_diff": -3.43,
-      "position": "below"
-    },
-    {
-      "symbol": "WEC",
-      "name": "WEC Energy Group",
-      "index": "S&P 500",
-      "last_close": 106.28,
-      "ma200": 110.08,
-      "pct_diff": -3.45,
-      "position": "below"
-    },
-    {
-      "symbol": "BR",
-      "name": "Broadridge Financial Solutions",
-      "index": "S&P 500",
-      "last_close": 183.08,
-      "ma200": 176.96,
-      "pct_diff": 3.46,
-      "position": "above"
-    },
-    {
-      "symbol": "RL",
-      "name": "Ralph Lauren Corporation",
-      "index": "S&P 500",
-      "last_close": 351.9,
-      "ma200": 364.55,
-      "pct_diff": -3.47,
-      "position": "below"
-    },
-    {
-      "symbol": "EXC",
-      "name": "Exelon",
-      "index": "Nasdaq-100 + S&P 500",
-      "last_close": 43.96,
-      "ma200": 45.55,
-      "pct_diff": -3.49,
-      "position": "below"
-    },
-    {
-      "symbol": "KKR",
-      "name": "KKR & Co.",
-      "index": "S&P 500",
-      "last_close": 109.32,
-      "ma200": 105.63,
-      "pct_diff": 3.49,
-      "position": "above"
-    },
-    {
-      "symbol": "PPG",
-      "name": "PPG Industries",
-      "index": "S&P 500",
-      "last_close": 113.47,
-      "ma200": 109.64,
-      "pct_diff": 3.49,
-      "position": "above"
-    },
-    {
-      "symbol": "DOV",
-      "name": "Dover Corporation",
-      "index": "S&P 500",
-      "last_close": 201.82,
-      "ma200": 209.15,
-      "pct_diff": -3.5,
-      "position": "below"
-    },
-    {
-      "symbol": "MAR",
-      "name": "Marriott International",
-      "index": "Nasdaq-100 + S&P 500",
-      "last_close": 353.87,
-      "ma200": 341.89,
-      "pct_diff": 3.5,
-      "position": "above"
-    },
-    {
-      "symbol": "TFC",
-      "name": "Truist Financial",
-      "index": "S&P 500",
-      "last_close": 50.3,
-      "ma200": 48.57,
-      "pct_diff": 3.57,
-      "position": "above"
-    },
-    {
-      "symbol": "ON",
-      "name": "ON Semiconductor",
-      "index": "S&P 500",
-      "last_close": 74.8,
-      "ma200": 77.59,
-      "pct_diff": -3.59,
-      "position": "below"
-    },
-    {
-      "symbol": "RMD",
-      "name": "ResMed|",
-      "index": "S&P 500",
-      "last_close": 235.76,
-      "ma200": 227.59,
-      "pct_diff": 3.59,
-      "position": "above"
-    },
-    {
-      "symbol": "GIS",
-      "name": "General Mills",
-      "index": "S&P 500",
-      "last_close": 40.44,
-      "ma200": 39.03,
-      "pct_diff": 3.61,
-      "position": "above"
-    },
-    {
-      "symbol": "KMI",
-      "name": "Kinder Morgan",
-      "index": "S&P 500",
-      "last_close": 31.54,
-      "ma200": 30.44,
-      "pct_diff": 3.61,
-      "position": "above"
-    },
-    {
-      "symbol": "MELI",
-      "name": "Mercado Libre, Inc",
-      "index": "Nasdaq-100",
-      "last_close": 1930.75,
-      "ma200": 1863.12,
-      "pct_diff": 3.63,
-      "position": "above"
-    },
-    {
-      "symbol": "FTV",
-      "name": "Fortive",
-      "index": "S&P 500",
-      "last_close": 59.92,
-      "ma200": 57.8,
-      "pct_diff": 3.66,
-      "position": "above"
-    },
-    {
-      "symbol": "IR",
-      "name": "Ingersoll Rand",
-      "index": "S&P 500",
-      "last_close": 78.97,
-      "ma200": 82.0,
-      "pct_diff": -3.69,
-      "position": "below"
-    },
-    {
-      "symbol": "MKC",
-      "name": "McCormick & Company",
-      "index": "S&P 500",
-      "last_close": 54.54,
-      "ma200": 56.66,
-      "pct_diff": -3.75,
-      "position": "below"
-    },
-    {
-      "symbol": "AVY",
-      "name": "Avery Dennison",
-      "index": "S&P 500",
-      "last_close": 178.34,
-      "ma200": 171.86,
-      "pct_diff": 3.77,
-      "position": "above"
-    },
-    {
-      "symbol": "ATO",
-      "name": "Atmos Energy",
-      "index": "S&P 500",
-      "last_close": 167.22,
-      "ma200": 173.79,
-      "pct_diff": -3.78,
-      "position": "below"
-    },
-    {
-      "symbol": "SHW",
-      "name": "Sherwin-Williams",
-      "index": "S&P 500",
-      "last_close": 345.21,
-      "ma200": 332.63,
-      "pct_diff": 3.78,
-      "position": "above"
-    },
-    {
-      "symbol": "AON",
-      "name": "Aon plc",
-      "index": "S&P 500",
-      "last_close": 349.56,
-      "ma200": 336.58,
-      "pct_diff": 3.86,
-      "position": "above"
-    },
-    {
-      "symbol": "ROK",
-      "name": "Rockwell Automation",
-      "index": "S&P 500",
-      "last_close": 433.0,
-      "ma200": 416.72,
-      "pct_diff": 3.91,
-      "position": "above"
-    },
-    {
-      "symbol": "HD",
-      "name": "Home Depot (The)",
-      "index": "S&P 500",
-      "last_close": 328.61,
-      "ma200": 342.23,
-      "pct_diff": -3.98,
-      "position": "below"
-    },
-    {
-      "symbol": "CINF",
-      "name": "Cincinnati Financial",
-      "index": "S&P 500",
-      "last_close": 172.52,
-      "ma200": 165.87,
-      "pct_diff": 4.01,
-      "position": "above"
-    },
-    {
-      "symbol": "UPS",
-      "name": "United Parcel Service",
-      "index": "S&P 500",
-      "last_close": 105.68,
-      "ma200": 101.49,
-      "pct_diff": 4.13,
-      "position": "above"
-    },
-    {
-      "symbol": "SNPS",
-      "name": "Synopsys",
-      "index": "Nasdaq-100 + S&P 500",
-      "last_close": 464.89,
-      "ma200": 446.42,
-      "pct_diff": 4.14,
-      "position": "above"
-    },
-    {
-      "symbol": "CNP",
-      "name": "CenterPoint Energy",
-      "index": "S&P 500",
-      "last_close": 39.29,
-      "ma200": 41.0,
-      "pct_diff": -4.17,
-      "position": "below"
-    },
-    {
-      "symbol": "UAL",
-      "name": "United Airlines Holdings",
-      "index": "S&P 500",
-      "last_close": 112.39,
-      "ma200": 107.9,
-      "pct_diff": 4.17,
-      "position": "above"
-    },
-    {
-      "symbol": "AOS",
-      "name": "A. O. Smith",
-      "index": "S&P 500",
-      "last_close": 61.95,
-      "ma200": 64.7,
-      "pct_diff": -4.24,
-      "position": "below"
-    },
-    {
-      "symbol": "NEE",
-      "name": "NextEra Energy",
-      "index": "S&P 500",
-      "last_close": 83.47,
-      "ma200": 87.18,
-      "pct_diff": -4.26,
-      "position": "below"
-    },
-    {
-      "symbol": "PPL",
-      "name": "PPL Corporation",
-      "index": "S&P 500",
-      "last_close": 34.44,
-      "ma200": 36.0,
-      "pct_diff": -4.34,
-      "position": "below"
-    },
-    {
-      "symbol": "HSY",
-      "name": "Hershey Company (The)",
-      "index": "S&P 500",
-      "last_close": 181.32,
-      "ma200": 189.61,
-      "pct_diff": -4.37,
-      "position": "below"
-    },
-    {
-      "symbol": "VMRK",
-      "name": "Vivmark Residential",
-      "index": "S&P 500",
-      "last_close": 65.5,
-      "ma200": 62.74,
-      "pct_diff": 4.41,
-      "position": "above"
-    },
-    {
-      "symbol": "CB",
-      "name": "Chubb Limited",
-      "index": "S&P 500",
-      "last_close": 338.31,
-      "ma200": 323.82,
-      "pct_diff": 4.47,
-      "position": "above"
-    },
-    {
-      "symbol": "TRI",
-      "name": "Thomson Reuters Corporation Common Shares",
-      "index": "Nasdaq-100",
-      "last_close": 104.78,
-      "ma200": 100.27,
-      "pct_diff": 4.5,
-      "position": "above"
-    },
-    {
-      "symbol": "BA",
-      "name": "Boeing",
-      "index": "S&P 500",
-      "last_close": 209.89,
-      "ma200": 219.8,
-      "pct_diff": -4.51,
-      "position": "below"
-    },
-    {
-      "symbol": "KEY",
-      "name": "KeyCorp",
-      "index": "S&P 500",
-      "last_close": 22.02,
-      "ma200": 21.06,
-      "pct_diff": 4.53,
-      "position": "above"
-    },
-    {
-      "symbol": "ICE",
-      "name": "Intercontinental Exchange",
-      "index": "S&P 500",
-      "last_close": 161.24,
-      "ma200": 154.23,
-      "pct_diff": 4.54,
-      "position": "above"
-    },
-    {
-      "symbol": "MO",
-      "name": "Altria",
-      "index": "S&P 500",
-      "last_close": 67.67,
-      "ma200": 64.72,
-      "pct_diff": 4.55,
-      "position": "above"
-    },
-    {
-      "symbol": "TAP",
-      "name": "Molson Coors Beverage Company",
-      "index": "S&P 500",
-      "last_close": 41.66,
-      "ma200": 43.66,
-      "pct_diff": -4.58,
-      "position": "below"
-    },
-    {
-      "symbol": "PGR",
-      "name": "Progressive Corporation",
-      "index": "S&P 500",
-      "last_close": 217.65,
-      "ma200": 208.1,
-      "pct_diff": 4.59,
-      "position": "above"
-    },
-    {
-      "symbol": "PLD",
-      "name": "Prologis",
-      "index": "S&P 500",
-      "last_close": 141.85,
-      "ma200": 135.6,
-      "pct_diff": 4.61,
-      "position": "above"
-    },
-    {
-      "symbol": "EBAY",
-      "name": "eBay Inc.",
-      "index": "S&P 500",
-      "last_close": 102.27,
-      "ma200": 97.76,
-      "pct_diff": 4.62,
-      "position": "above"
-    },
-    {
-      "symbol": "HLT",
-      "name": "Hilton Worldwide",
-      "index": "S&P 500",
-      "last_close": 325.68,
-      "ma200": 311.25,
-      "pct_diff": 4.64,
+      "symbol": "STE",
+      "name": "Steris",
+      "index": "S&P 500",
+      "last_close": 233.78,
+      "ma200": 233.0,
+      "pct_diff": 0.33,
       "position": "above"
     },
     {
       "symbol": "Q",
       "name": "Qnity Electronics",
       "index": "S&P 500",
-      "last_close": 126.35,
-      "ma200": 120.67,
-      "pct_diff": 4.7,
+      "last_close": 120.26,
+      "ma200": 120.79,
+      "pct_diff": -0.44,
+      "position": "below"
+    },
+    {
+      "symbol": "AMT",
+      "name": "American Tower",
+      "index": "S&P 500",
+      "last_close": 176.23,
+      "ma200": 175.4,
+      "pct_diff": 0.48,
       "position": "above"
+    },
+    {
+      "symbol": "CPT",
+      "name": "Camden Property Trust",
+      "index": "S&P 500",
+      "last_close": 106.35,
+      "ma200": 105.82,
+      "pct_diff": 0.5,
+      "position": "above"
+    },
+    {
+      "symbol": "CI",
+      "name": "Cigna",
+      "index": "S&P 500",
+      "last_close": 278.88,
+      "ma200": 277.46,
+      "pct_diff": 0.51,
+      "position": "above"
+    },
+    {
+      "symbol": "WRB",
+      "name": "W. R. Berkley Corporation",
+      "index": "S&P 500",
+      "last_close": 68.44,
+      "ma200": 68.84,
+      "pct_diff": -0.57,
+      "position": "below"
+    },
+    {
+      "symbol": "AEE",
+      "name": "Ameren",
+      "index": "S&P 500",
+      "last_close": 106.12,
+      "ma200": 106.91,
+      "pct_diff": -0.74,
+      "position": "below"
+    },
+    {
+      "symbol": "REG",
+      "name": "Regency Centers",
+      "index": "S&P 500",
+      "last_close": 75.52,
+      "ma200": 74.91,
+      "pct_diff": 0.81,
+      "position": "above"
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "index": "S&P 500",
+      "last_close": 257.08,
+      "ma200": 255.01,
+      "pct_diff": 0.81,
+      "position": "above"
+    },
+    {
+      "symbol": "GDDY",
+      "name": "GoDaddy",
+      "index": "S&P 500",
+      "last_close": 97.7,
+      "ma200": 96.9,
+      "pct_diff": 0.82,
+      "position": "above"
+    },
+    {
+      "symbol": "DD",
+      "name": "DuPont",
+      "index": "S&P 500",
+      "last_close": 136.98,
+      "ma200": 135.79,
+      "pct_diff": 0.88,
+      "position": "above"
+    },
+    {
+      "symbol": "BF-B",
+      "name": "Brown\u2013Forman",
+      "index": "S&P 500",
+      "last_close": 27.22,
+      "ma200": 26.98,
+      "pct_diff": 0.9,
+      "position": "above"
+    },
+    {
+      "symbol": "PNW",
+      "name": "Pinnacle West Capital",
+      "index": "S&P 500",
+      "last_close": 97.64,
+      "ma200": 96.77,
+      "pct_diff": 0.9,
+      "position": "above"
+    },
+    {
+      "symbol": "SNPS",
+      "name": "Synopsys",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 442.61,
+      "ma200": 446.63,
+      "pct_diff": -0.9,
+      "position": "below"
+    },
+    {
+      "symbol": "HBAN",
+      "name": "Huntington Bancshares",
+      "index": "S&P 500",
+      "last_close": 16.92,
+      "ma200": 16.76,
+      "pct_diff": 0.98,
+      "position": "above"
+    },
+    {
+      "symbol": "AXP",
+      "name": "American Express",
+      "index": "S&P 500",
+      "last_close": 333.2,
+      "ma200": 336.54,
+      "pct_diff": -0.99,
+      "position": "below"
+    },
+    {
+      "symbol": "PCG",
+      "name": "PG&E Corporation",
+      "index": "S&P 500",
+      "last_close": 16.6,
+      "ma200": 16.77,
+      "pct_diff": -0.99,
+      "position": "below"
+    },
+    {
+      "symbol": "L",
+      "name": "Loews Corporation",
+      "index": "S&P 500",
+      "last_close": 109.72,
+      "ma200": 108.58,
+      "pct_diff": 1.05,
+      "position": "above"
+    },
+    {
+      "symbol": "DHI",
+      "name": "D. R. Horton",
+      "index": "S&P 500",
+      "last_close": 147.39,
+      "ma200": 149.03,
+      "pct_diff": -1.1,
+      "position": "below"
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 945.47,
+      "ma200": 957.47,
+      "pct_diff": -1.25,
+      "position": "below"
+    },
+    {
+      "symbol": "CLX",
+      "name": "Clorox",
+      "index": "S&P 500",
+      "last_close": 102.53,
+      "ma200": 101.25,
+      "pct_diff": 1.26,
+      "position": "above"
+    },
+    {
+      "symbol": "MPWR",
+      "name": "Monolithic Power Systems",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 1256.26,
+      "ma200": 1240.37,
+      "pct_diff": 1.28,
+      "position": "above"
+    },
+    {
+      "symbol": "DG",
+      "name": "Dollar General",
+      "index": "S&P 500",
+      "last_close": 122.89,
+      "ma200": 124.51,
+      "pct_diff": -1.3,
+      "position": "below"
+    },
+    {
+      "symbol": "CIEN",
+      "name": "Ciena",
+      "index": "S&P 500",
+      "last_close": 378.44,
+      "ma200": 373.46,
+      "pct_diff": 1.33,
+      "position": "above"
+    },
+    {
+      "symbol": "DOW",
+      "name": "Dow Inc.",
+      "index": "S&P 500",
+      "last_close": 30.51,
+      "ma200": 30.93,
+      "pct_diff": -1.36,
+      "position": "below"
+    },
+    {
+      "symbol": "PG",
+      "name": "Procter & Gamble",
+      "index": "S&P 500",
+      "last_close": 143.78,
+      "ma200": 145.78,
+      "pct_diff": -1.37,
+      "position": "below"
+    },
+    {
+      "symbol": "GEHC",
+      "name": "GE HealthCare",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 71.72,
+      "ma200": 72.75,
+      "pct_diff": -1.41,
+      "position": "below"
+    },
+    {
+      "symbol": "TT",
+      "name": "Trane Technologies",
+      "index": "S&P 500",
+      "last_close": 448.96,
+      "ma200": 442.68,
+      "pct_diff": 1.42,
+      "position": "above"
+    },
+    {
+      "symbol": "VRSK",
+      "name": "Verisk Analytics",
+      "index": "S&P 500",
+      "last_close": 191.77,
+      "ma200": 194.54,
+      "pct_diff": -1.43,
+      "position": "below"
+    },
+    {
+      "symbol": "WY",
+      "name": "Weyerhaeuser",
+      "index": "S&P 500",
+      "last_close": 23.64,
+      "ma200": 24.0,
+      "pct_diff": -1.52,
+      "position": "below"
+    },
+    {
+      "symbol": "AKAM",
+      "name": "Akamai Technologies",
+      "index": "S&P 500",
+      "last_close": 107.47,
+      "ma200": 109.15,
+      "pct_diff": -1.54,
+      "position": "below"
+    },
+    {
+      "symbol": "ETR",
+      "name": "Entergy",
+      "index": "S&P 500",
+      "last_close": 105.75,
+      "ma200": 104.13,
+      "pct_diff": 1.56,
+      "position": "above"
+    },
+    {
+      "symbol": "PSKY",
+      "name": "Paramount Skydance Corporation",
+      "index": "S&P 500",
+      "last_close": 10.88,
+      "ma200": 11.06,
+      "pct_diff": -1.61,
+      "position": "below"
+    },
+    {
+      "symbol": "CVNA",
+      "name": "Carvana",
+      "index": "S&P 500",
+      "last_close": 74.04,
+      "ma200": 72.8,
+      "pct_diff": 1.7,
+      "position": "above"
+    },
+    {
+      "symbol": "DUK",
+      "name": "Duke Energy",
+      "index": "S&P 500",
+      "last_close": 120.25,
+      "ma200": 122.33,
+      "pct_diff": -1.7,
+      "position": "below"
+    },
+    {
+      "symbol": "FE",
+      "name": "FirstEnergy",
+      "index": "S&P 500",
+      "last_close": 45.88,
+      "ma200": 46.68,
+      "pct_diff": -1.71,
+      "position": "below"
+    },
+    {
+      "symbol": "QCOM",
+      "name": "Qualcomm",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 164.19,
+      "ma200": 167.05,
+      "pct_diff": -1.71,
+      "position": "below"
+    },
+    {
+      "symbol": "UDR",
+      "name": "UDR, Inc.",
+      "index": "S&P 500",
+      "last_close": 37.12,
+      "ma200": 36.5,
+      "pct_diff": 1.71,
+      "position": "above"
+    },
+    {
+      "symbol": "TDY",
+      "name": "Teledyne Technologies",
+      "index": "S&P 500",
+      "last_close": 621.96,
+      "ma200": 611.31,
+      "pct_diff": 1.74,
+      "position": "above"
+    },
+    {
+      "symbol": "WM",
+      "name": "Waste Management",
+      "index": "S&P 500",
+      "last_close": 219.66,
+      "ma200": 223.75,
+      "pct_diff": -1.83,
+      "position": "below"
+    },
+    {
+      "symbol": "EVRG",
+      "name": "Evergy",
+      "index": "S&P 500",
+      "last_close": 80.65,
+      "ma200": 79.19,
+      "pct_diff": 1.85,
+      "position": "above"
+    },
+    {
+      "symbol": "ODFL",
+      "name": "Old Dominion",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 198.63,
+      "ma200": 194.93,
+      "pct_diff": 1.9,
+      "position": "above"
+    },
+    {
+      "symbol": "ED",
+      "name": "Consolidated Edison",
+      "index": "S&P 500",
+      "last_close": 107.49,
+      "ma200": 105.46,
+      "pct_diff": 1.93,
+      "position": "above"
+    },
+    {
+      "symbol": "XEL",
+      "name": "Xcel Energy",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 76.45,
+      "ma200": 77.99,
+      "pct_diff": -1.98,
+      "position": "below"
+    },
+    {
+      "symbol": "EME",
+      "name": "Emcor",
+      "index": "S&P 500",
+      "last_close": 740.17,
+      "ma200": 755.76,
+      "pct_diff": -2.06,
+      "position": "below"
+    },
+    {
+      "symbol": "ES",
+      "name": "Eversource Energy",
+      "index": "S&P 500",
+      "last_close": 70.84,
+      "ma200": 69.36,
+      "pct_diff": 2.14,
+      "position": "above"
+    },
+    {
+      "symbol": "LNT",
+      "name": "Alliant Energy",
+      "index": "S&P 500",
+      "last_close": 68.03,
+      "ma200": 69.52,
+      "pct_diff": -2.14,
+      "position": "below"
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp.",
+      "index": "S&P 500",
+      "last_close": 279.2,
+      "ma200": 273.28,
+      "pct_diff": 2.17,
+      "position": "above"
+    },
+    {
+      "symbol": "EXE",
+      "name": "Expand Energy",
+      "index": "S&P 500",
+      "last_close": 98.16,
+      "ma200": 100.35,
+      "pct_diff": -2.18,
+      "position": "below"
+    },
+    {
+      "symbol": "O",
+      "name": "Realty Income",
+      "index": "S&P 500",
+      "last_close": 61.98,
+      "ma200": 60.63,
+      "pct_diff": 2.22,
+      "position": "above"
+    },
+    {
+      "symbol": "RCL",
+      "name": "Royal Caribbean Group",
+      "index": "S&P 500",
+      "last_close": 279.41,
+      "ma200": 285.86,
+      "pct_diff": -2.26,
+      "position": "below"
+    },
+    {
+      "symbol": "AEP",
+      "name": "American Electric Power",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 122.31,
+      "ma200": 125.15,
+      "pct_diff": -2.27,
+      "position": "below"
+    },
+    {
+      "symbol": "MKC",
+      "name": "McCormick & Company",
+      "index": "S&P 500",
+      "last_close": 55.33,
+      "ma200": 56.63,
+      "pct_diff": -2.29,
+      "position": "below"
     },
     {
       "symbol": "SYK",
       "name": "Stryker Corporation",
       "index": "S&P 500",
-      "last_close": 322.12,
-      "ma200": 338.54,
-      "pct_diff": -4.85,
+      "last_close": 330.69,
+      "ma200": 338.44,
+      "pct_diff": -2.29,
       "position": "below"
+    },
+    {
+      "symbol": "LMT",
+      "name": "Lockheed Martin",
+      "index": "S&P 500",
+      "last_close": 563.85,
+      "ma200": 551.16,
+      "pct_diff": 2.3,
+      "position": "above"
+    },
+    {
+      "symbol": "HIG",
+      "name": "Hartford (The)",
+      "index": "S&P 500",
+      "last_close": 138.55,
+      "ma200": 135.41,
+      "pct_diff": 2.32,
+      "position": "above"
+    },
+    {
+      "symbol": "CBRE",
+      "name": "CBRE Group",
+      "index": "S&P 500",
+      "last_close": 150.82,
+      "ma200": 147.36,
+      "pct_diff": 2.35,
+      "position": "above"
+    },
+    {
+      "symbol": "UAL",
+      "name": "United Airlines Holdings",
+      "index": "S&P 500",
+      "last_close": 110.6,
+      "ma200": 107.97,
+      "pct_diff": 2.44,
+      "position": "above"
+    },
+    {
+      "symbol": "EQT",
+      "name": "EQT Corporation",
+      "index": "S&P 500",
+      "last_close": 54.57,
+      "ma200": 55.96,
+      "pct_diff": -2.49,
+      "position": "below"
+    },
+    {
+      "symbol": "BRK-B",
+      "name": "Berkshire Hathaway",
+      "index": "S&P 500",
+      "last_close": 505.0,
+      "ma200": 492.41,
+      "pct_diff": 2.56,
+      "position": "above"
+    },
+    {
+      "symbol": "CMCSA",
+      "name": "Comcast",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 27.06,
+      "ma200": 26.39,
+      "pct_diff": 2.56,
+      "position": "above"
+    },
+    {
+      "symbol": "LIN",
+      "name": "Linde plc",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 489.51,
+      "ma200": 477.24,
+      "pct_diff": 2.57,
+      "position": "above"
+    },
+    {
+      "symbol": "MAR",
+      "name": "Marriott International",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 351.08,
+      "ma200": 342.2,
+      "pct_diff": 2.59,
+      "position": "above"
+    },
+    {
+      "symbol": "EXR",
+      "name": "Extra Space Storage",
+      "index": "S&P 500",
+      "last_close": 142.91,
+      "ma200": 139.22,
+      "pct_diff": 2.65,
+      "position": "above"
+    },
+    {
+      "symbol": "MOS",
+      "name": "Mosaic Company (The)",
+      "index": "S&P 500",
+      "last_close": 23.6,
+      "ma200": 24.25,
+      "pct_diff": -2.69,
+      "position": "below"
+    },
+    {
+      "symbol": "UBER",
+      "name": "Uber",
+      "index": "S&P 500",
+      "last_close": 78.82,
+      "ma200": 76.74,
+      "pct_diff": 2.71,
+      "position": "above"
+    },
+    {
+      "symbol": "AFL",
+      "name": "Aflac",
+      "index": "S&P 500",
+      "last_close": 116.52,
+      "ma200": 113.37,
+      "pct_diff": 2.78,
+      "position": "above"
+    },
+    {
+      "symbol": "BG",
+      "name": "Bunge Global",
+      "index": "S&P 500",
+      "last_close": 115.48,
+      "ma200": 112.28,
+      "pct_diff": 2.85,
+      "position": "above"
+    },
+    {
+      "symbol": "MDT",
+      "name": "Medtronic",
+      "index": "S&P 500",
+      "last_close": 91.23,
+      "ma200": 88.7,
+      "pct_diff": 2.85,
+      "position": "above"
+    },
+    {
+      "symbol": "GOOG",
+      "name": "Alphabet Inc. (Class C)",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 342.88,
+      "ma200": 333.27,
+      "pct_diff": 2.89,
+      "position": "above"
+    },
+    {
+      "symbol": "RL",
+      "name": "Ralph Lauren Corporation",
+      "index": "S&P 500",
+      "last_close": 354.04,
+      "ma200": 364.66,
+      "pct_diff": -2.91,
+      "position": "below"
+    },
+    {
+      "symbol": "CTSH",
+      "name": "Cognizant",
+      "index": "S&P 500",
+      "last_close": 64.04,
+      "ma200": 62.21,
+      "pct_diff": 2.94,
+      "position": "above"
+    },
+    {
+      "symbol": "KKR",
+      "name": "KKR & Co.",
+      "index": "S&P 500",
+      "last_close": 108.68,
+      "ma200": 105.58,
+      "pct_diff": 2.94,
+      "position": "above"
+    },
+    {
+      "symbol": "FIX",
+      "name": "Comfort Systems USA",
+      "index": "S&P 500",
+      "last_close": 1518.73,
+      "ma200": 1474.62,
+      "pct_diff": 2.99,
+      "position": "above"
+    },
+    {
+      "symbol": "ERIE",
+      "name": "Erie Indemnity",
+      "index": "S&P 500",
+      "last_close": 260.4,
+      "ma200": 252.78,
+      "pct_diff": 3.01,
+      "position": "above"
+    },
+    {
+      "symbol": "ACGL",
+      "name": "Arch Capital Group",
+      "index": "S&P 500",
+      "last_close": 98.84,
+      "ma200": 95.93,
+      "pct_diff": 3.03,
+      "position": "above"
+    },
+    {
+      "symbol": "DTE",
+      "name": "DTE Energy",
+      "index": "S&P 500",
+      "last_close": 135.86,
+      "ma200": 140.13,
+      "pct_diff": -3.05,
+      "position": "below"
+    },
+    {
+      "symbol": "TTWO",
+      "name": "Take-Two Interactive",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 235.39,
+      "ma200": 228.41,
+      "pct_diff": 3.05,
+      "position": "above"
+    },
+    {
+      "symbol": "PHM",
+      "name": "PulteGroup",
+      "index": "S&P 500",
+      "last_close": 128.55,
+      "ma200": 124.73,
+      "pct_diff": 3.06,
+      "position": "above"
+    },
+    {
+      "symbol": "SO",
+      "name": "Southern Company",
+      "index": "S&P 500",
+      "last_close": 88.25,
+      "ma200": 91.04,
+      "pct_diff": -3.07,
+      "position": "below"
+    },
+    {
+      "symbol": "COO",
+      "name": "Cooper Companies (The)",
+      "index": "S&P 500",
+      "last_close": 71.17,
+      "ma200": 73.43,
+      "pct_diff": -3.08,
+      "position": "below"
+    },
+    {
+      "symbol": "WFC",
+      "name": "Wells Fargo",
+      "index": "S&P 500",
+      "last_close": 86.69,
+      "ma200": 84.04,
+      "pct_diff": 3.15,
+      "position": "above"
+    },
+    {
+      "symbol": "FTV",
+      "name": "Fortive",
+      "index": "S&P 500",
+      "last_close": 59.69,
+      "ma200": 57.84,
+      "pct_diff": 3.19,
+      "position": "above"
+    },
+    {
+      "symbol": "AES",
+      "name": "AES Corporation",
+      "index": "S&P 500",
+      "last_close": 14.73,
+      "ma200": 14.27,
+      "pct_diff": 3.21,
+      "position": "above"
+    },
+    {
+      "symbol": "SPGI",
+      "name": "S&P Global",
+      "index": "S&P 500",
+      "last_close": 442.89,
+      "ma200": 428.75,
+      "pct_diff": 3.3,
+      "position": "above"
+    },
+    {
+      "symbol": "HLT",
+      "name": "Hilton Worldwide",
+      "index": "S&P 500",
+      "last_close": 321.85,
+      "ma200": 311.49,
+      "pct_diff": 3.33,
+      "position": "above"
+    },
+    {
+      "symbol": "PWR",
+      "name": "Quanta Services",
+      "index": "S&P 500",
+      "last_close": 602.7,
+      "ma200": 583.26,
+      "pct_diff": 3.33,
+      "position": "above"
+    },
+    {
+      "symbol": "ROK",
+      "name": "Rockwell Automation",
+      "index": "S&P 500",
+      "last_close": 430.86,
+      "ma200": 416.95,
+      "pct_diff": 3.34,
+      "position": "above"
+    },
+    {
+      "symbol": "AVY",
+      "name": "Avery Dennison",
+      "index": "S&P 500",
+      "last_close": 177.75,
+      "ma200": 171.89,
+      "pct_diff": 3.41,
+      "position": "above"
+    },
+    {
+      "symbol": "KLAC",
+      "name": "KLA Corporation",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 175.54,
+      "ma200": 169.68,
+      "pct_diff": 3.45,
+      "position": "above"
+    },
+    {
+      "symbol": "HD",
+      "name": "Home Depot (The)",
+      "index": "S&P 500",
+      "last_close": 330.19,
+      "ma200": 342.07,
+      "pct_diff": -3.47,
+      "position": "below"
+    },
+    {
+      "symbol": "WEC",
+      "name": "WEC Energy Group",
+      "index": "S&P 500",
+      "last_close": 106.22,
+      "ma200": 110.06,
+      "pct_diff": -3.49,
+      "position": "below"
+    },
+    {
+      "symbol": "CARR",
+      "name": "Carrier Global",
+      "index": "S&P 500",
+      "last_close": 58.79,
+      "ma200": 60.94,
+      "pct_diff": -3.53,
+      "position": "below"
+    },
+    {
+      "symbol": "EXC",
+      "name": "Exelon",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 43.93,
+      "ma200": 45.55,
+      "pct_diff": -3.55,
+      "position": "below"
+    },
+    {
+      "symbol": "EFX",
+      "name": "Equifax",
+      "index": "S&P 500",
+      "last_close": 194.35,
+      "ma200": 187.67,
+      "pct_diff": 3.56,
+      "position": "above"
+    },
+    {
+      "symbol": "D",
+      "name": "Dominion Energy",
+      "index": "S&P 500",
+      "last_close": 65.55,
+      "ma200": 63.28,
+      "pct_diff": 3.58,
+      "position": "above"
+    },
+    {
+      "symbol": "KMI",
+      "name": "Kinder Morgan",
+      "index": "S&P 500",
+      "last_close": 31.56,
+      "ma200": 30.47,
+      "pct_diff": 3.58,
+      "position": "above"
+    },
+    {
+      "symbol": "CINF",
+      "name": "Cincinnati Financial",
+      "index": "S&P 500",
+      "last_close": 171.97,
+      "ma200": 165.91,
+      "pct_diff": 3.65,
+      "position": "above"
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc. (Class A)",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 346.59,
+      "ma200": 334.32,
+      "pct_diff": 3.67,
+      "position": "above"
+    },
+    {
+      "symbol": "SHW",
+      "name": "Sherwin-Williams",
+      "index": "S&P 500",
+      "last_close": 344.86,
+      "ma200": 332.66,
+      "pct_diff": 3.67,
+      "position": "above"
+    },
+    {
+      "symbol": "PLD",
+      "name": "Prologis",
+      "index": "S&P 500",
+      "last_close": 140.7,
+      "ma200": 135.69,
+      "pct_diff": 3.69,
+      "position": "above"
+    },
+    {
+      "symbol": "UPS",
+      "name": "United Parcel Service",
+      "index": "S&P 500",
+      "last_close": 105.33,
+      "ma200": 101.58,
+      "pct_diff": 3.69,
+      "position": "above"
+    },
+    {
+      "symbol": "DPZ",
+      "name": "Domino's",
+      "index": "S&P 500",
+      "last_close": 350.0,
+      "ma200": 363.48,
+      "pct_diff": -3.71,
+      "position": "below"
+    },
+    {
+      "symbol": "TFC",
+      "name": "Truist Financial",
+      "index": "S&P 500",
+      "last_close": 50.43,
+      "ma200": 48.6,
+      "pct_diff": 3.76,
+      "position": "above"
+    },
+    {
+      "symbol": "JBL",
+      "name": "Jabil",
+      "index": "S&P 500",
+      "last_close": 301.45,
+      "ma200": 290.25,
+      "pct_diff": 3.86,
+      "position": "above"
+    },
+    {
+      "symbol": "BR",
+      "name": "Broadridge Financial Solutions",
+      "index": "S&P 500",
+      "last_close": 183.64,
+      "ma200": 176.78,
+      "pct_diff": 3.88,
+      "position": "above"
+    },
+    {
+      "symbol": "KEY",
+      "name": "KeyCorp",
+      "index": "S&P 500",
+      "last_close": 21.91,
+      "ma200": 21.09,
+      "pct_diff": 3.91,
+      "position": "above"
+    },
+    {
+      "symbol": "RSG",
+      "name": "Republic Services",
+      "index": "S&P 500",
+      "last_close": 222.11,
+      "ma200": 213.72,
+      "pct_diff": 3.92,
+      "position": "above"
+    },
+    {
+      "symbol": "CME",
+      "name": "CME Group",
+      "index": "S&P 500",
+      "last_close": 285.8,
+      "ma200": 274.9,
+      "pct_diff": 3.97,
+      "position": "above"
+    },
+    {
+      "symbol": "GEV",
+      "name": "GE Vernova",
+      "index": "S&P 500",
+      "last_close": 911.93,
+      "ma200": 876.86,
+      "pct_diff": 4.0,
+      "position": "above"
+    },
+    {
+      "symbol": "CDNS",
+      "name": "Cadence Design Systems",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 340.39,
+      "ma200": 327.23,
+      "pct_diff": 4.02,
+      "position": "above"
+    },
+    {
+      "symbol": "PPG",
+      "name": "PPG Industries",
+      "index": "S&P 500",
+      "last_close": 114.22,
+      "ma200": 109.74,
+      "pct_diff": 4.08,
+      "position": "above"
+    },
+    {
+      "symbol": "ATO",
+      "name": "Atmos Energy",
+      "index": "S&P 500",
+      "last_close": 166.65,
+      "ma200": 173.75,
+      "pct_diff": -4.09,
+      "position": "below"
+    },
+    {
+      "symbol": "FERG",
+      "name": "Ferguson Enterprises",
+      "index": "S&P 500",
+      "last_close": 228.49,
+      "ma200": 238.27,
+      "pct_diff": -4.11,
+      "position": "below"
+    },
+    {
+      "symbol": "MCHP",
+      "name": "Microchip Technology",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 72.93,
+      "ma200": 76.06,
+      "pct_diff": -4.12,
+      "position": "below"
+    },
+    {
+      "symbol": "SWKS",
+      "name": "Skyworks Solutions",
+      "index": "S&P 500",
+      "last_close": 65.79,
+      "ma200": 63.18,
+      "pct_diff": 4.13,
+      "position": "above"
+    },
+    {
+      "symbol": "EIX",
+      "name": "Edison International",
+      "index": "S&P 500",
+      "last_close": 70.17,
+      "ma200": 67.37,
+      "pct_diff": 4.15,
+      "position": "above"
+    },
+    {
+      "symbol": "PEP",
+      "name": "PepsiCo",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 141.07,
+      "ma200": 147.17,
+      "pct_diff": -4.15,
+      "position": "below"
+    },
+    {
+      "symbol": "IR",
+      "name": "Ingersoll Rand",
+      "index": "S&P 500",
+      "last_close": 78.58,
+      "ma200": 82.0,
+      "pct_diff": -4.17,
+      "position": "below"
+    },
+    {
+      "symbol": "ORLY",
+      "name": "O'Reilly Automotive",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 88.5,
+      "ma200": 92.44,
+      "pct_diff": -4.27,
+      "position": "below"
+    },
+    {
+      "symbol": "CNP",
+      "name": "CenterPoint Energy",
+      "index": "S&P 500",
+      "last_close": 39.24,
+      "ma200": 41.0,
+      "pct_diff": -4.3,
+      "position": "below"
+    },
+    {
+      "symbol": "JCI",
+      "name": "Johnson Controls",
+      "index": "S&P 500",
+      "last_close": 139.59,
+      "ma200": 133.77,
+      "pct_diff": 4.35,
+      "position": "above"
+    },
+    {
+      "symbol": "VMRK",
+      "name": "Vivmark Residential",
+      "index": "S&P 500",
+      "last_close": 65.54,
+      "ma200": 62.78,
+      "pct_diff": 4.4,
+      "position": "above"
+    },
+    {
+      "symbol": "SYY",
+      "name": "Sysco",
+      "index": "S&P 500",
+      "last_close": 81.94,
+      "ma200": 78.46,
+      "pct_diff": 4.43,
+      "position": "above"
+    },
+    {
+      "symbol": "ALLE",
+      "name": "Allegion",
+      "index": "S&P 500",
+      "last_close": 157.48,
+      "ma200": 150.61,
+      "pct_diff": 4.56,
+      "position": "above"
+    },
+    {
+      "symbol": "BA",
+      "name": "Boeing",
+      "index": "S&P 500",
+      "last_close": 209.82,
+      "ma200": 219.88,
+      "pct_diff": -4.57,
+      "position": "below"
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar Inc.",
+      "index": "S&P 500",
+      "last_close": 800.25,
+      "ma200": 765.12,
+      "pct_diff": 4.59,
+      "position": "above"
+    },
+    {
+      "symbol": "HON",
+      "name": "Honeywell Technologies",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 217.43,
+      "ma200": 227.88,
+      "pct_diff": -4.59,
+      "position": "below"
+    },
+    {
+      "symbol": "DIS",
+      "name": "Walt Disney Company (The)",
+      "index": "S&P 500",
+      "last_close": 108.1,
+      "ma200": 103.34,
+      "pct_diff": 4.61,
+      "position": "above"
     },
     {
       "symbol": "VMC",
       "name": "Vulcan Materials Company",
       "index": "S&P 500",
-      "last_close": 273.85,
-      "ma200": 287.96,
-      "pct_diff": -4.9,
+      "last_close": 274.51,
+      "ma200": 287.87,
+      "pct_diff": -4.64,
       "position": "below"
     },
     {
-      "symbol": "GNRC",
-      "name": "Generac",
+      "symbol": "COF",
+      "name": "Capital One",
       "index": "S&P 500",
-      "last_close": 197.29,
-      "ma200": 207.61,
-      "pct_diff": -4.97,
+      "last_close": 215.67,
+      "ma200": 205.95,
+      "pct_diff": 4.72,
+      "position": "above"
+    },
+    {
+      "symbol": "CL",
+      "name": "Colgate-Palmolive",
+      "index": "S&P 500",
+      "last_close": 90.75,
+      "ma200": 86.63,
+      "pct_diff": 4.75,
+      "position": "above"
+    },
+    {
+      "symbol": "CPRT",
+      "name": "Copart",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 32.99,
+      "ma200": 34.66,
+      "pct_diff": -4.81,
+      "position": "below"
+    },
+    {
+      "symbol": "CASY",
+      "name": "Casey's",
+      "index": "S&P 500",
+      "last_close": 755.47,
+      "ma200": 720.72,
+      "pct_diff": 4.82,
+      "position": "above"
+    },
+    {
+      "symbol": "IP",
+      "name": "International Paper",
+      "index": "S&P 500",
+      "last_close": 39.31,
+      "ma200": 37.49,
+      "pct_diff": 4.87,
+      "position": "above"
+    },
+    {
+      "symbol": "KIM",
+      "name": "Kimco Realty",
+      "index": "S&P 500",
+      "last_close": 23.78,
+      "ma200": 22.67,
+      "pct_diff": 4.88,
+      "position": "above"
+    },
+    {
+      "symbol": "CB",
+      "name": "Chubb Limited",
+      "index": "S&P 500",
+      "last_close": 339.92,
+      "ma200": 324.09,
+      "pct_diff": 4.89,
+      "position": "above"
+    },
+    {
+      "symbol": "CMI",
+      "name": "Cummins",
+      "index": "S&P 500",
+      "last_close": 564.85,
+      "ma200": 593.89,
+      "pct_diff": -4.89,
+      "position": "below"
+    },
+    {
+      "symbol": "SYF",
+      "name": "Synchrony Financial",
+      "index": "S&P 500",
+      "last_close": 78.05,
+      "ma200": 74.41,
+      "pct_diff": 4.89,
+      "position": "above"
+    },
+    {
+      "symbol": "DLR",
+      "name": "Digital Realty",
+      "index": "S&P 500",
+      "last_close": 185.47,
+      "ma200": 176.81,
+      "pct_diff": 4.9,
+      "position": "above"
+    },
+    {
+      "symbol": "ADSK",
+      "name": "Autodesk",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 260.66,
+      "ma200": 248.45,
+      "pct_diff": 4.92,
+      "position": "above"
+    },
+    {
+      "symbol": "GLW",
+      "name": "Corning Inc.",
+      "index": "S&P 500",
+      "last_close": 148.98,
+      "ma200": 141.99,
+      "pct_diff": 4.92,
+      "position": "above"
+    },
+    {
+      "symbol": "ARE",
+      "name": "Alexandria Real Estate Equities",
+      "index": "S&P 500",
+      "last_close": 51.57,
+      "ma200": 49.14,
+      "pct_diff": 4.94,
+      "position": "above"
+    },
+    {
+      "symbol": "HUBB",
+      "name": "Hubbell Incorporated",
+      "index": "S&P 500",
+      "last_close": 459.66,
+      "ma200": 483.65,
+      "pct_diff": -4.96,
+      "position": "below"
+    },
+    {
+      "symbol": "PPL",
+      "name": "PPL Corporation",
+      "index": "S&P 500",
+      "last_close": 34.2,
+      "ma200": 35.99,
+      "pct_diff": -4.98,
+      "position": "below"
+    },
+    {
+      "symbol": "TAP",
+      "name": "Molson Coors Beverage Company",
+      "index": "S&P 500",
+      "last_close": 41.46,
+      "ma200": 43.64,
+      "pct_diff": -5.0,
       "position": "below"
     }
   ]
