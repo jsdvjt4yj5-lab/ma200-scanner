@@ -89,7 +89,7 @@ def build_universe() -> pd.DataFrame:
     return grouped
 
 
-def fetch_price_history(symbols, period="300d"):
+def fetch_price_history(symbols, period="420d"):
     return yf.download(
         symbols,
         period=period,
@@ -101,6 +101,55 @@ def fetch_price_history(symbols, period="300d"):
     )
 
 
+def compute_avwap_anchors(sub: pd.DataFrame, lookback: int = 252):
+    """Anchored VWAP from the 52-week high and the 52-week low.
+
+    AVWAP tracks the average price paid by everyone who's bought since a
+    specific anchor date (rather than resetting daily like normal VWAP).
+    Price above the anchored VWAP suggests buyers since that anchor are
+    sitting on a profit (support); below suggests they're underwater
+    (resistance).
+    """
+    try:
+        df = sub[["High", "Low", "Close", "Volume"]].dropna()
+    except (KeyError, TypeError):
+        return None
+
+    if len(df) < 20:
+        return None
+
+    window = df.iloc[-lookback:] if len(df) > lookback else df
+    high_idx = window["High"].idxmax()
+    low_idx = window["Low"].idxmin()
+
+    def avwap_from(anchor_idx):
+        seg = df.loc[anchor_idx:]
+        total_vol = seg["Volume"].sum()
+        if total_vol == 0:
+            return None
+        return float((seg["Close"] * seg["Volume"]).sum() / total_vol)
+
+    last_close = float(df["Close"].iloc[-1])
+    result = {
+        "week52_high": round(float(window["High"].max()), 2),
+        "week52_high_date": pd.Timestamp(high_idx).strftime("%Y-%m-%d"),
+        "week52_low": round(float(window["Low"].min()), 2),
+        "week52_low_date": pd.Timestamp(low_idx).strftime("%Y-%m-%d"),
+    }
+
+    avwap_high = avwap_from(high_idx)
+    if avwap_high:
+        result["avwap_from_high"] = round(avwap_high, 2)
+        result["avwap_from_high_diff_pct"] = round((last_close - avwap_high) / avwap_high * 100, 2)
+
+    avwap_low = avwap_from(low_idx)
+    if avwap_low:
+        result["avwap_from_low"] = round(avwap_low, 2)
+        result["avwap_from_low_diff_pct"] = round((last_close - avwap_low) / avwap_low * 100, 2)
+
+    return result
+
+
 def compute_signals(universe_df: pd.DataFrame, price_data, threshold_pct: float):
     results = []
     multi = len(universe_df) > 1
@@ -108,7 +157,12 @@ def compute_signals(universe_df: pd.DataFrame, price_data, threshold_pct: float)
     for _, row in universe_df.iterrows():
         symbol = row["symbol"]
         try:
-            closes = (price_data[symbol]["Close"] if multi else price_data["Close"]).dropna()
+            sub = price_data[symbol] if multi else price_data
+        except (KeyError, TypeError):
+            continue
+
+        try:
+            closes = sub["Close"].dropna()
         except (KeyError, TypeError):
             continue
 
@@ -122,18 +176,24 @@ def compute_signals(universe_df: pd.DataFrame, price_data, threshold_pct: float)
             continue
 
         pct_diff = (last_close - ma200) / ma200 * 100
-        if abs(pct_diff) <= threshold_pct:
-            results.append(
-                {
-                    "symbol": symbol,
-                    "name": row["name"],
-                    "index": row["index"],
-                    "last_close": round(float(last_close), 2),
-                    "ma200": round(float(ma200), 2),
-                    "pct_diff": round(float(pct_diff), 2),
-                    "position": "above" if pct_diff >= 0 else "below",
-                }
-            )
+        if abs(pct_diff) > threshold_pct:
+            continue
+
+        entry = {
+            "symbol": symbol,
+            "name": row["name"],
+            "index": row["index"],
+            "last_close": round(float(last_close), 2),
+            "ma200": round(float(ma200), 2),
+            "pct_diff": round(float(pct_diff), 2),
+            "position": "above" if pct_diff >= 0 else "below",
+        }
+
+        avwap = compute_avwap_anchors(sub)
+        if avwap:
+            entry.update(avwap)
+
+        results.append(entry)
 
     results.sort(key=lambda r: abs(r["pct_diff"]))
     return results
