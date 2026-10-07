@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T20:35:36.001719+00:00",
+  "generated_at": "2026-10-07T23:49:22.882028+00:00",
   "threshold_pct": 5.0,
   "universe_size": 518,
   "matches": [
@@ -33,7 +33,7 @@
       "week52_low": 184.28,
       "week52_low_date": "2026-02-23",
       "avwap_from_high": 279.98,
-      "avwap_from_high_diff_pct": -7.55,
+      "avwap_from_high_diff_pct": -7.54,
       "avwap_from_low": 254.86,
       "avwap_from_low_diff_pct": 1.57
     },
@@ -135,7 +135,7 @@
       "week52_low": 36.55,
       "week52_low_date": "2025-10-23",
       "avwap_from_high": 47.19,
-      "avwap_from_high_diff_pct": -3.02,
+      "avwap_from_high_diff_pct": -3.01,
       "avwap_from_low": 44.05,
       "avwap_from_low_diff_pct": 3.91
     },
@@ -236,7 +236,7 @@
       "week52_high_date": "2026-08-13",
       "week52_low": 165.13,
       "week52_low_date": "2025-11-20",
-      "avwap_from_high": 210.45,
+      "avwap_from_high": 210.44,
       "avwap_from_high_diff_pct": -4.26,
       "avwap_from_low": 199.3,
       "avwap_from_low_diff_pct": 1.1
@@ -627,7 +627,7 @@
       "week52_high_date": "2026-09-03",
       "week52_low": 538.24,
       "week52_low_date": "2025-10-13",
-      "avwap_from_high": 776.77,
+      "avwap_from_high": 776.76,
       "avwap_from_high_diff_pct": -4.46,
       "avwap_from_low": 712.64,
       "avwap_from_low_diff_pct": 4.14
@@ -868,7 +868,7 @@
       "avwap_from_high": 23.84,
       "avwap_from_high_diff_pct": 2.66,
       "avwap_from_low": 23.57,
-      "avwap_from_low_diff_pct": 3.84
+      "avwap_from_low_diff_pct": 3.83
     },
     {
       "symbol": "TEL",
@@ -967,8 +967,8 @@
       "week52_high_date": "2026-08-06",
       "week52_low": 137.85,
       "week52_low_date": "2026-04-02",
-      "avwap_from_high": 169.47,
-      "avwap_from_high_diff_pct": -7.21,
+      "avwap_from_high": 169.44,
+      "avwap_from_high_diff_pct": -7.19,
       "avwap_from_low": 159.69,
       "avwap_from_low_diff_pct": -1.53
     },
@@ -1018,7 +1018,7 @@
       "week52_high_date": "2026-07-06",
       "week52_low": 223.18,
       "week52_low_date": "2025-12-10",
-      "avwap_from_high": 292.82,
+      "avwap_from_high": 292.81,
       "avwap_from_high_diff_pct": -5.02,
       "avwap_from_low": 277.7,
       "avwap_from_low_diff_pct": 0.15
@@ -1173,7 +1173,7 @@
       "week52_low_date": "2026-03-12",
       "avwap_from_high": 1045.5,
       "avwap_from_high_diff_pct": 2.31,
-      "avwap_from_low": 1036.84,
+      "avwap_from_low": 1036.85,
       "avwap_from_low_diff_pct": 3.16
     },
     {
@@ -1409,7 +1409,7 @@
       "week52_high_date": "2026-06-30",
       "week52_low": 479.24,
       "week52_low_date": "2025-10-07",
-      "avwap_from_high": 853.02,
+      "avwap_from_high": 853.01,
       "avwap_from_high_diff_pct": -4.59,
       "avwap_from_low": 754.27,
       "avwap_from_low_diff_pct": 7.9
@@ -1513,7 +1513,7 @@
       "week52_low_date": "2026-06-22",
       "avwap_from_high": 178.74,
       "avwap_from_high_diff_pct": 10.02,
-      "avwap_from_low": 159.75,
+      "avwap_from_low": 159.76,
       "avwap_from_low_diff_pct": 23.09
     },
     {
@@ -1579,7 +1579,7 @@
       "week52_high_date": "2026-08-17",
       "week52_low": 45.65,
       "week52_low_date": "2026-03-19",
-      "avwap_from_high": 58.97,
+      "avwap_from_high": 58.96,
       "avwap_from_high_diff_pct": -9.23,
       "avwap_from_low": 55.67,
       "avwap_from_low_diff_pct": -3.86
@@ -1664,7 +1664,7 @@
       "week52_high_date": "2026-07-28",
       "week52_low": 83.49,
       "week52_low_date": "2025-11-04",
-      "avwap_from_high": 105.44,
+      "avwap_from_high": 105.43,
       "avwap_from_high_diff_pct": -4.34,
       "avwap_from_low": 97.35,
       "avwap_from_low_diff_pct": 3.61
@@ -1784,7 +1784,7 @@
       "week52_low": 78.7,
       "week52_low_date": "2026-05-11",
       "avwap_from_high": 90.71,
-      "avwap_from_high_diff_pct": -2.45,
+      "avwap_from_high_diff_pct": -2.44,
       "avwap_from_low": 91.07,
       "avwap_from_low_diff_pct": -2.84
     },
@@ -1870,8 +1870,8 @@
       "week52_low_date": "2026-05-13",
       "avwap_from_high": 132.97,
       "avwap_from_high_diff_pct": 2.54,
-      "avwap_from_low": 130.55,
-      "avwap_from_low_diff_pct": 4.44
+      "avwap_from_low": 130.57,
+      "avwap_from_low_diff_pct": 4.43
     },
     {
       "symbol": "OKE",
@@ -1885,10 +1885,10 @@
       "week52_high_date": "2026-09-01",
       "week52_low": 61.67,
       "week52_low_date": "2025-11-04",
-      "avwap_from_high": 92.13,
+      "avwap_from_high": 92.12,
       "avwap_from_high_diff_pct": -4.42,
       "avwap_from_low": 82.91,
-      "avwap_from_low_diff_pct": 6.21
+      "avwap_from_low_diff_pct": 6.2
     },
     {
       "symbol": "UHS",
@@ -2225,9 +2225,9 @@
       "week52_high_date": "2026-08-10",
       "week52_low": 483.02,
       "week52_low_date": "2025-11-21",
-      "avwap_from_high": 623.88,
+      "avwap_from_high": 623.87,
       "avwap_from_high_diff_pct": -3.16,
-      "avwap_from_low": 615.84,
+      "avwap_from_low": 615.83,
       "avwap_from_low_diff_pct": -1.9
     },
     {
@@ -2279,7 +2279,7 @@
       "avwap_from_high": 394.97,
       "avwap_from_high_diff_pct": -4.34,
       "avwap_from_low": 353.04,
-      "avwap_from_low_diff_pct": 7.02
+      "avwap_from_low_diff_pct": 7.01
     },
     {
       "symbol": "ROST",
@@ -2498,7 +2498,7 @@
       "week52_low": 76.03,
       "week52_low_date": "2025-12-18",
       "avwap_from_high": 119.36,
-      "avwap_from_high_diff_pct": -3.03,
+      "avwap_from_high_diff_pct": -3.02,
       "avwap_from_low": 110.42,
       "avwap_from_low_diff_pct": 4.83
     },
@@ -2804,7 +2804,7 @@
       "week52_low": 76.05,
       "week52_low_date": "2025-11-04",
       "avwap_from_high": 99.96,
-      "avwap_from_high_diff_pct": -6.39,
+      "avwap_from_high_diff_pct": -6.38,
       "avwap_from_low": 95.07,
       "avwap_from_low_diff_pct": -1.57
     },
@@ -2819,11 +2819,11 @@
       "week52_high": 60.15,
       "week52_high_date": "2026-08-31",
       "week52_low": 30.88,
-      "week52_low_date": "2025-10-13",
+      "week52_low_date": "2025-10-17",
       "avwap_from_high": 53.32,
       "avwap_from_high_diff_pct": -10.06,
-      "avwap_from_low": 47.03,
-      "avwap_from_low_diff_pct": 1.97
+      "avwap_from_low": 47.36,
+      "avwap_from_low_diff_pct": 1.26
     },
     {
       "symbol": "ROK",
