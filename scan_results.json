@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T22:29:46.222263+00:00",
+  "generated_at": "2026-10-13T01:37:36.318773+00:00",
   "threshold_pct": 5.0,
   "universe_size": 518,
   "matches": [
@@ -83,10 +83,10 @@
       "week52_high_date": "2026-06-30",
       "week52_low": 486.92,
       "week52_low_date": "2025-10-10",
-      "avwap_from_high": 851.31,
-      "avwap_from_high_diff_pct": -6.1,
-      "avwap_from_low": 758.07,
-      "avwap_from_low_diff_pct": 5.45
+      "avwap_from_high": 851.2,
+      "avwap_from_high_diff_pct": -6.09,
+      "avwap_from_low": 758.1,
+      "avwap_from_low_diff_pct": 5.44
     },
     {
       "symbol": "SYY",
@@ -154,7 +154,7 @@
       "avwap_from_high": 798.13,
       "avwap_from_high_diff_pct": -2.38,
       "avwap_from_low": 761.83,
-      "avwap_from_low_diff_pct": 2.28
+      "avwap_from_low_diff_pct": 2.27
     },
     {
       "symbol": "MSCI",
@@ -238,8 +238,8 @@
       "week52_low_date": "2026-06-25",
       "avwap_from_high": 54.35,
       "avwap_from_high_diff_pct": 3.0,
-      "avwap_from_low": 53.76,
-      "avwap_from_low_diff_pct": 4.13
+      "avwap_from_low": 53.77,
+      "avwap_from_low_diff_pct": 4.12
     },
     {
       "symbol": "ED",
@@ -491,8 +491,8 @@
       "week52_high_date": "2026-07-29",
       "week52_low": 68.48,
       "week52_low_date": "2026-03-30",
-      "avwap_from_high": 92.73,
-      "avwap_from_high_diff_pct": -5.38,
+      "avwap_from_high": 92.72,
+      "avwap_from_high_diff_pct": -5.37,
       "avwap_from_low": 92.52,
       "avwap_from_low_diff_pct": -5.17
     },
@@ -884,7 +884,7 @@
       "week52_low_date": "2025-10-10",
       "avwap_from_high": 988.41,
       "avwap_from_high_diff_pct": -3.19,
-      "avwap_from_low": 915.22,
+      "avwap_from_low": 915.23,
       "avwap_from_low_diff_pct": 4.55
     },
     {
@@ -1205,7 +1205,7 @@
       "week52_high_date": "2026-06-03",
       "week52_low": 108.19,
       "week52_low_date": "2025-10-14",
-      "avwap_from_high": 322.44,
+      "avwap_from_high": 322.43,
       "avwap_from_high_diff_pct": -10.67,
       "avwap_from_low": 273.97,
       "avwap_from_low_diff_pct": 5.13
@@ -1324,9 +1324,9 @@
       "week52_high_date": "2026-05-26",
       "week52_low": 827.63,
       "week52_low_date": "2025-11-21",
-      "avwap_from_high": 1372.6,
+      "avwap_from_high": 1372.58,
       "avwap_from_high_diff_pct": -3.89,
-      "avwap_from_low": 1271.86,
+      "avwap_from_low": 1271.87,
       "avwap_from_low_diff_pct": 3.72
     },
     {
@@ -1529,9 +1529,9 @@
       "week52_low": 121.39,
       "week52_low_date": "2026-06-29",
       "avwap_from_high": 150.78,
-      "avwap_from_high_diff_pct": 4.41,
-      "avwap_from_low": 148.64,
-      "avwap_from_low_diff_pct": 5.91
+      "avwap_from_high_diff_pct": 4.4,
+      "avwap_from_low": 148.65,
+      "avwap_from_low_diff_pct": 5.9
     },
     {
       "symbol": "AIG",
@@ -1653,6 +1653,23 @@
       "avwap_from_low_diff_pct": 5.54
     },
     {
+      "symbol": "HUBB",
+      "name": "Hubbell Incorporated",
+      "index": "S&P 500",
+      "last_close": 474.11,
+      "ma200": 486.38,
+      "pct_diff": -2.52,
+      "position": "below",
+      "week52_high": 562.06,
+      "week52_high_date": "2026-04-23",
+      "week52_low": 398.95,
+      "week52_low_date": "2025-11-21",
+      "avwap_from_high": 483.71,
+      "avwap_from_high_diff_pct": -1.99,
+      "avwap_from_low": 482.06,
+      "avwap_from_low_diff_pct": -1.65
+    },
+    {
       "symbol": "ROK",
       "name": "Rockwell Automation",
       "index": "S&P 500",
@@ -1664,9 +1681,9 @@
       "week52_high_date": "2026-06-30",
       "week52_low": 328.32,
       "week52_low_date": "2025-10-10",
-      "avwap_from_high": 445.13,
+      "avwap_from_high": 445.12,
       "avwap_from_high_diff_pct": -2.51,
-      "avwap_from_low": 411.16,
+      "avwap_from_low": 411.17,
       "avwap_from_low_diff_pct": 5.55
     },
     {
@@ -1685,23 +1702,6 @@
       "avwap_from_high_diff_pct": -4.66,
       "avwap_from_low": 22.53,
       "avwap_from_low_diff_pct": -0.93
-    },
-    {
-      "symbol": "HUBB",
-      "name": "Hubbell Incorporated",
-      "index": "S&P 500",
-      "last_close": 474.05,
-      "ma200": 486.49,
-      "pct_diff": -2.56,
-      "position": "below",
-      "week52_high": 562.06,
-      "week52_high_date": "2026-04-23",
-      "week52_low": 398.95,
-      "week52_low_date": "2025-11-21",
-      "avwap_from_high": 483.67,
-      "avwap_from_high_diff_pct": -1.99,
-      "avwap_from_low": 482.04,
-      "avwap_from_low_diff_pct": -1.66
     },
     {
       "symbol": "PAYX",
@@ -2023,7 +2023,7 @@
       "week52_low_date": "2026-07-29",
       "avwap_from_high": 394.84,
       "avwap_from_high_diff_pct": -4.26,
-      "avwap_from_low": 354.23,
+      "avwap_from_low": 354.24,
       "avwap_from_low_diff_pct": 6.72
     },
     {
@@ -2040,7 +2040,7 @@
       "week52_low_date": "2026-05-13",
       "avwap_from_high": 1861.81,
       "avwap_from_high_diff_pct": 1.65,
-      "avwap_from_low": 1773.74,
+      "avwap_from_low": 1773.75,
       "avwap_from_low_diff_pct": 6.69
     },
     {
@@ -2105,11 +2105,11 @@
       "week52_high": 60.15,
       "week52_high_date": "2026-08-31",
       "week52_low": 30.88,
-      "week52_low_date": "2025-10-17",
+      "week52_low_date": "2025-10-13",
       "avwap_from_high": 52.98,
       "avwap_from_high_diff_pct": -7.95,
-      "avwap_from_low": 47.38,
-      "avwap_from_low_diff_pct": 2.94
+      "avwap_from_low": 47.05,
+      "avwap_from_low_diff_pct": 3.65
     },
     {
       "symbol": "HIG",
@@ -2174,10 +2174,10 @@
       "week52_high_date": "2026-06-03",
       "week52_low": 288.98,
       "week52_low_date": "2026-03-30",
-      "avwap_from_high": 378.67,
+      "avwap_from_high": 378.66,
       "avwap_from_high_diff_pct": -6.32,
       "avwap_from_low": 384.8,
-      "avwap_from_low_diff_pct": -7.82
+      "avwap_from_low_diff_pct": -7.81
     },
     {
       "symbol": "HCA",
@@ -2245,7 +2245,7 @@
       "avwap_from_high": 427.08,
       "avwap_from_high_diff_pct": 0.13,
       "avwap_from_low": 379.77,
-      "avwap_from_low_diff_pct": 12.61
+      "avwap_from_low_diff_pct": 12.6
     },
     {
       "symbol": "LYB",
@@ -2499,7 +2499,7 @@
       "week52_low_date": "2025-10-10",
       "avwap_from_high": 352.85,
       "avwap_from_high_diff_pct": -0.04,
-      "avwap_from_low": 327.18,
+      "avwap_from_low": 327.19,
       "avwap_from_low_diff_pct": 7.8
     },
     {
@@ -2973,10 +2973,10 @@
       "week52_high_date": "2026-07-29",
       "week52_low": 303.95,
       "week52_low_date": "2026-04-28",
-      "avwap_from_high": 357.82,
-      "avwap_from_high_diff_pct": -6.25,
-      "avwap_from_low": 353.64,
-      "avwap_from_low_diff_pct": -5.14
+      "avwap_from_high": 357.66,
+      "avwap_from_high_diff_pct": -6.21,
+      "avwap_from_low": 353.58,
+      "avwap_from_low_diff_pct": -5.12
     },
     {
       "symbol": "PG",
