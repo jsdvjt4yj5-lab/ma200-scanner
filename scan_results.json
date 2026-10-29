@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T20:16:17.906740+00:00",
+  "generated_at": "2026-10-29T23:35:07.390859+00:00",
   "threshold_pct": 5.0,
   "universe_size": 518,
   "matches": [
@@ -17,16 +17,16 @@
       "week52_low_date": "2026-09-25",
       "avwap_from_high": 35.29,
       "avwap_from_high_diff_pct": 0.96,
-      "avwap_from_low": 33.98,
-      "avwap_from_low_diff_pct": 4.86
+      "avwap_from_low": 33.99,
+      "avwap_from_low_diff_pct": 4.83
     },
     {
       "symbol": "C",
       "name": "Citigroup",
       "index": "S&P 500",
-      "last_close": 125.75,
+      "last_close": 125.76,
       "ma200": 125.85,
-      "pct_diff": -0.08,
+      "pct_diff": -0.07,
       "position": "below",
       "week52_high": 147.21,
       "week52_high_date": "2026-06-18",
@@ -49,10 +49,10 @@
       "week52_high_date": "2026-07-07",
       "week52_low": 231.64,
       "week52_low_date": "2026-03-27",
-      "avwap_from_high": 278.01,
-      "avwap_from_high_diff_pct": -4.6,
-      "avwap_from_low": 272.07,
-      "avwap_from_low_diff_pct": -2.52
+      "avwap_from_high": 277.99,
+      "avwap_from_high_diff_pct": -4.59,
+      "avwap_from_low": 272.06,
+      "avwap_from_low_diff_pct": -2.51
     },
     {
       "symbol": "UHS",
@@ -68,7 +68,7 @@
       "week52_low_date": "2026-06-08",
       "avwap_from_high": 179.79,
       "avwap_from_high_diff_pct": -1.77,
-      "avwap_from_low": 164.56,
+      "avwap_from_low": 164.57,
       "avwap_from_low_diff_pct": 7.32
     },
     {
@@ -83,7 +83,7 @@
       "week52_high_date": "2026-06-18",
       "week52_low": 100.02,
       "week52_low_date": "2026-02-05",
-      "avwap_from_high": 291.16,
+      "avwap_from_high": 291.15,
       "avwap_from_high_diff_pct": -21.43,
       "avwap_from_low": 251.39,
       "avwap_from_low_diff_pct": -9.0
@@ -100,7 +100,7 @@
       "week52_high_date": "2026-10-12",
       "week52_low": 223.76,
       "week52_low_date": "2025-11-19",
-      "avwap_from_high": 418.97,
+      "avwap_from_high": 418.95,
       "avwap_from_high_diff_pct": -13.25,
       "avwap_from_low": 328.77,
       "avwap_from_low_diff_pct": 10.55
@@ -117,8 +117,8 @@
       "week52_high_date": "2026-08-03",
       "week52_low": 196.0,
       "week52_low_date": "2026-02-17",
-      "avwap_from_high": 258.59,
-      "avwap_from_high_diff_pct": -5.72,
+      "avwap_from_high": 258.54,
+      "avwap_from_high_diff_pct": -5.7,
       "avwap_from_low": 243.99,
       "avwap_from_low_diff_pct": -0.08
     },
@@ -143,18 +143,18 @@
       "symbol": "AXP",
       "name": "American Express",
       "index": "S&P 500",
-      "last_close": 323.66,
+      "last_close": 323.71,
       "ma200": 324.54,
-      "pct_diff": -0.27,
+      "pct_diff": -0.26,
       "position": "below",
       "week52_high": 383.18,
       "week52_high_date": "2025-12-12",
       "week52_low": 288.37,
       "week52_low_date": "2026-03-20",
       "avwap_from_high": 326.9,
-      "avwap_from_high_diff_pct": -0.99,
+      "avwap_from_high_diff_pct": -0.98,
       "avwap_from_low": 321.27,
-      "avwap_from_low_diff_pct": 0.74
+      "avwap_from_low_diff_pct": 0.76
     },
     {
       "symbol": "VMC",
@@ -202,9 +202,9 @@
       "week52_high_date": "2026-08-25",
       "week52_low": 77.87,
       "week52_low_date": "2025-11-04",
-      "avwap_from_high": 121.24,
-      "avwap_from_high_diff_pct": -7.79,
-      "avwap_from_low": 108.15,
+      "avwap_from_high": 121.23,
+      "avwap_from_high_diff_pct": -7.78,
+      "avwap_from_low": 108.16,
       "avwap_from_low_diff_pct": 3.37
     },
     {
@@ -238,8 +238,8 @@
       "week52_low_date": "2026-10-14",
       "avwap_from_high": 143.96,
       "avwap_from_high_diff_pct": 1.78,
-      "avwap_from_low": 142.46,
-      "avwap_from_low_diff_pct": 2.86
+      "avwap_from_low": 142.48,
+      "avwap_from_low_diff_pct": 2.85
     },
     {
       "symbol": "ETN",
@@ -272,7 +272,7 @@
       "week52_low_date": "2026-09-11",
       "avwap_from_high": 588.5,
       "avwap_from_high_diff_pct": -2.13,
-      "avwap_from_low": 530.58,
+      "avwap_from_low": 530.59,
       "avwap_from_low_diff_pct": 8.56
     },
     {
@@ -290,7 +290,7 @@
       "avwap_from_high": 42.64,
       "avwap_from_high_diff_pct": 4.94,
       "avwap_from_low": 42.14,
-      "avwap_from_low_diff_pct": 6.2
+      "avwap_from_low_diff_pct": 6.19
     },
     {
       "symbol": "ADM",
@@ -356,9 +356,9 @@
       "week52_low": 277.15,
       "week52_low_date": "2026-10-01",
       "avwap_from_high": 323.66,
-      "avwap_from_high_diff_pct": 1.65,
-      "avwap_from_low": 301.61,
-      "avwap_from_low_diff_pct": 9.08
+      "avwap_from_high_diff_pct": 1.64,
+      "avwap_from_low": 301.72,
+      "avwap_from_low_diff_pct": 9.03
     },
     {
       "symbol": "BE",
@@ -373,9 +373,9 @@
       "week52_low": 75.7,
       "week52_low_date": "2025-12-17",
       "avwap_from_high": 238.81,
-      "avwap_from_high_diff_pct": -6.92,
+      "avwap_from_high_diff_pct": -6.91,
       "avwap_from_low": 214.67,
-      "avwap_from_low_diff_pct": 3.56
+      "avwap_from_low_diff_pct": 3.55
     },
     {
       "symbol": "PHM",
@@ -391,8 +391,8 @@
       "week52_low_date": "2026-10-14",
       "avwap_from_high": 122.46,
       "avwap_from_high_diff_pct": 1.55,
-      "avwap_from_low": 116.81,
-      "avwap_from_low_diff_pct": 6.46
+      "avwap_from_low": 116.83,
+      "avwap_from_low_diff_pct": 6.45
     },
     {
       "symbol": "DOV",
@@ -457,7 +457,7 @@
       "week52_high_date": "2026-07-17",
       "week52_low": 126.81,
       "week52_low_date": "2025-11-03",
-      "avwap_from_high": 171.87,
+      "avwap_from_high": 171.86,
       "avwap_from_high_diff_pct": -6.64,
       "avwap_from_low": 155.31,
       "avwap_from_low_diff_pct": 3.31
@@ -544,8 +544,8 @@
       "week52_low_date": "2026-10-08",
       "avwap_from_high": 87.19,
       "avwap_from_high_diff_pct": 0.31,
-      "avwap_from_low": 77.73,
-      "avwap_from_low_diff_pct": 12.52
+      "avwap_from_low": 77.78,
+      "avwap_from_low_diff_pct": 12.44
     },
     {
       "symbol": "CFG",
@@ -595,8 +595,8 @@
       "week52_low_date": "2026-10-05",
       "avwap_from_high": 310.1,
       "avwap_from_high_diff_pct": 3.72,
-      "avwap_from_low": 290.95,
-      "avwap_from_low_diff_pct": 10.55
+      "avwap_from_low": 290.99,
+      "avwap_from_low_diff_pct": 10.53
     },
     {
       "symbol": "ATO",
@@ -612,8 +612,8 @@
       "week52_low_date": "2026-10-01",
       "avwap_from_high": 170.78,
       "avwap_from_high_diff_pct": 0.17,
-      "avwap_from_low": 164.47,
-      "avwap_from_low_diff_pct": 4.02
+      "avwap_from_low": 164.48,
+      "avwap_from_low_diff_pct": 4.0
     },
     {
       "symbol": "LNT",
@@ -644,8 +644,8 @@
       "week52_high_date": "2026-09-24",
       "week52_low": 519.37,
       "week52_low_date": "2026-03-27",
-      "avwap_from_high": 696.3,
-      "avwap_from_high_diff_pct": -10.31,
+      "avwap_from_high": 696.26,
+      "avwap_from_high_diff_pct": -10.3,
       "avwap_from_low": 629.6,
       "avwap_from_low_diff_pct": -0.81
     },
@@ -712,7 +712,7 @@
       "week52_high_date": "2026-08-06",
       "week52_low": 137.85,
       "week52_low_date": "2026-04-02",
-      "avwap_from_high": 166.15,
+      "avwap_from_high": 166.14,
       "avwap_from_high_diff_pct": -2.92,
       "avwap_from_low": 159.47,
       "avwap_from_low_diff_pct": 1.14
@@ -786,6 +786,23 @@
       "avwap_from_low_diff_pct": -0.12
     },
     {
+      "symbol": "IR",
+      "name": "Ingersoll Rand",
+      "index": "S&P 500",
+      "last_close": 80.01,
+      "ma200": 81.14,
+      "pct_diff": -1.4,
+      "position": "below",
+      "week52_high": 100.89,
+      "week52_high_date": "2026-02-13",
+      "week52_low": 68.05,
+      "week52_low_date": "2026-05-19",
+      "avwap_from_high": 79.74,
+      "avwap_from_high_diff_pct": 0.34,
+      "avwap_from_low": 77.84,
+      "avwap_from_low_diff_pct": 2.79
+    },
+    {
       "symbol": "CVNA",
       "name": "Carvana",
       "index": "S&P 500",
@@ -816,42 +833,25 @@
       "week52_low_date": "2026-09-18",
       "avwap_from_high": 148.05,
       "avwap_from_high_diff_pct": 4.39,
-      "avwap_from_low": 143.99,
+      "avwap_from_low": 144.0,
       "avwap_from_low_diff_pct": 7.33
     },
     {
       "symbol": "EQT",
       "name": "EQT Corporation",
       "index": "S&P 500",
-      "last_close": 54.55,
+      "last_close": 54.54,
       "ma200": 55.34,
-      "pct_diff": -1.43,
+      "pct_diff": -1.45,
       "position": "below",
       "week52_high": 67.84,
       "week52_high_date": "2026-03-27",
       "week52_low": 47.79,
       "week52_low_date": "2026-07-10",
       "avwap_from_high": 54.22,
-      "avwap_from_high_diff_pct": 0.61,
-      "avwap_from_low": 52.75,
-      "avwap_from_low_diff_pct": 3.41
-    },
-    {
-      "symbol": "IR",
-      "name": "Ingersoll Rand",
-      "index": "S&P 500",
-      "last_close": 79.93,
-      "ma200": 81.14,
-      "pct_diff": -1.5,
-      "position": "below",
-      "week52_high": 100.89,
-      "week52_high_date": "2026-02-13",
-      "week52_low": 68.05,
-      "week52_low_date": "2026-05-19",
-      "avwap_from_high": 79.73,
-      "avwap_from_high_diff_pct": 0.24,
-      "avwap_from_low": 77.84,
-      "avwap_from_low_diff_pct": 2.69
+      "avwap_from_high_diff_pct": 0.59,
+      "avwap_from_low": 52.76,
+      "avwap_from_low_diff_pct": 3.38
     },
     {
       "symbol": "STX",
@@ -865,7 +865,7 @@
       "week52_high_date": "2026-06-18",
       "week52_low": 227.27,
       "week52_low_date": "2025-11-21",
-      "avwap_from_high": 835.05,
+      "avwap_from_high": 835.04,
       "avwap_from_high_diff_pct": -16.12,
       "avwap_from_low": 646.69,
       "avwap_from_low_diff_pct": 8.32
@@ -884,8 +884,8 @@
       "week52_low_date": "2026-10-02",
       "avwap_from_high": 73.65,
       "avwap_from_high_diff_pct": 1.3,
-      "avwap_from_low": 70.2,
-      "avwap_from_low_diff_pct": 6.28
+      "avwap_from_low": 70.21,
+      "avwap_from_low_diff_pct": 6.27
     },
     {
       "symbol": "PWR",
@@ -899,7 +899,7 @@
       "week52_high_date": "2026-05-06",
       "week52_low": 408.15,
       "week52_low_date": "2026-01-08",
-      "avwap_from_high": 668.57,
+      "avwap_from_high": 668.56,
       "avwap_from_high_diff_pct": -4.99,
       "avwap_from_low": 623.68,
       "avwap_from_low_diff_pct": 1.84
@@ -917,7 +917,7 @@
       "week52_low": 55.63,
       "week52_low_date": "2026-03-20",
       "avwap_from_high": 63.59,
-      "avwap_from_high_diff_pct": -2.9,
+      "avwap_from_high_diff_pct": -2.89,
       "avwap_from_low": 63.4,
       "avwap_from_low_diff_pct": -2.61
     },
@@ -933,8 +933,8 @@
       "week52_high_date": "2026-07-15",
       "week52_low": 151.15,
       "week52_low_date": "2026-03-12",
-      "avwap_from_high": 202.5,
-      "avwap_from_high_diff_pct": -6.17,
+      "avwap_from_high": 202.46,
+      "avwap_from_high_diff_pct": -6.15,
       "avwap_from_low": 196.3,
       "avwap_from_low_diff_pct": -3.21
     },
@@ -951,9 +951,9 @@
       "week52_low": 81.69,
       "week52_low_date": "2026-09-29",
       "avwap_from_high": 89.65,
-      "avwap_from_high_diff_pct": 3.73,
+      "avwap_from_high_diff_pct": 3.72,
       "avwap_from_low": 87.97,
-      "avwap_from_low_diff_pct": 5.71
+      "avwap_from_low_diff_pct": 5.7
     },
     {
       "symbol": "FDX",
@@ -986,8 +986,8 @@
       "week52_low_date": "2026-09-30",
       "avwap_from_high": 175.69,
       "avwap_from_high_diff_pct": 2.11,
-      "avwap_from_low": 160.34,
-      "avwap_from_low_diff_pct": 11.88
+      "avwap_from_low": 160.35,
+      "avwap_from_low_diff_pct": 11.87
     },
     {
       "symbol": "FERG",
@@ -1003,42 +1003,42 @@
       "week52_low_date": "2026-09-21",
       "avwap_from_high": 238.44,
       "avwap_from_high_diff_pct": 0.84,
-      "avwap_from_low": 224.64,
-      "avwap_from_low_diff_pct": 7.04
+      "avwap_from_low": 224.65,
+      "avwap_from_low_diff_pct": 7.03
     },
     {
       "symbol": "HIG",
       "name": "Hartford (The)",
       "index": "S&P 500",
-      "last_close": 132.1,
+      "last_close": 132.06,
       "ma200": 134.53,
-      "pct_diff": -1.81,
+      "pct_diff": -1.84,
       "position": "below",
       "week52_high": 145.43,
       "week52_high_date": "2026-07-30",
       "week52_low": 118.55,
       "week52_low_date": "2025-10-29",
-      "avwap_from_high": 133.81,
-      "avwap_from_high_diff_pct": -1.28,
+      "avwap_from_high": 133.8,
+      "avwap_from_high_diff_pct": -1.3,
       "avwap_from_low": 133.74,
-      "avwap_from_low_diff_pct": -1.23
+      "avwap_from_low_diff_pct": -1.26
     },
     {
       "symbol": "FCX",
       "name": "Freeport-McMoRan",
       "index": "S&P 500",
-      "last_close": 66.11,
+      "last_close": 66.14,
       "ma200": 64.93,
-      "pct_diff": 1.82,
+      "pct_diff": 1.86,
       "position": "above",
       "week52_high": 80.07,
       "week52_high_date": "2026-08-26",
       "week52_low": 38.18,
       "week52_low_date": "2025-11-06",
       "avwap_from_high": 71.45,
-      "avwap_from_high_diff_pct": -7.48,
+      "avwap_from_high_diff_pct": -7.44,
       "avwap_from_low": 60.87,
-      "avwap_from_low_diff_pct": 8.61
+      "avwap_from_low_diff_pct": 8.66
     },
     {
       "symbol": "BX",
@@ -1103,8 +1103,8 @@
       "week52_high_date": "2026-08-06",
       "week52_low": 748.86,
       "week52_low_date": "2025-11-05",
-      "avwap_from_high": 974.0,
-      "avwap_from_high_diff_pct": -4.68,
+      "avwap_from_high": 973.91,
+      "avwap_from_high_diff_pct": -4.67,
       "avwap_from_low": 925.63,
       "avwap_from_low_diff_pct": 0.3
     },
@@ -1157,7 +1157,7 @@
       "avwap_from_high": 67.03,
       "avwap_from_high_diff_pct": 1.2,
       "avwap_from_low": 64.71,
-      "avwap_from_low_diff_pct": 4.84
+      "avwap_from_low_diff_pct": 4.83
     },
     {
       "symbol": "EXC",
@@ -1177,23 +1177,6 @@
       "avwap_from_low_diff_pct": 8.61
     },
     {
-      "symbol": "WFC",
-      "name": "Wells Fargo",
-      "index": "S&P 500",
-      "last_close": 84.81,
-      "ma200": 83.06,
-      "pct_diff": 2.1,
-      "position": "above",
-      "week52_high": 96.18,
-      "week52_high_date": "2026-01-05",
-      "week52_low": 72.36,
-      "week52_low_date": "2026-05-15",
-      "avwap_from_high": 83.06,
-      "avwap_from_high_diff_pct": 2.1,
-      "avwap_from_low": 83.64,
-      "avwap_from_low_diff_pct": 1.4
-    },
-    {
       "symbol": "RF",
       "name": "Regions Financial Corporation",
       "index": "S&P 500",
@@ -1209,6 +1192,23 @@
       "avwap_from_high_diff_pct": -0.71,
       "avwap_from_low": 27.67,
       "avwap_from_low_diff_pct": 4.39
+    },
+    {
+      "symbol": "WFC",
+      "name": "Wells Fargo",
+      "index": "S&P 500",
+      "last_close": 84.81,
+      "ma200": 83.06,
+      "pct_diff": 2.11,
+      "position": "above",
+      "week52_high": 96.18,
+      "week52_high_date": "2026-01-05",
+      "week52_low": 72.36,
+      "week52_low_date": "2026-05-15",
+      "avwap_from_high": 83.06,
+      "avwap_from_high_diff_pct": 2.1,
+      "avwap_from_low": 83.64,
+      "avwap_from_low_diff_pct": 1.4
     },
     {
       "symbol": "DASH",
@@ -1242,7 +1242,7 @@
       "avwap_from_high": 138.36,
       "avwap_from_high_diff_pct": 1.6,
       "avwap_from_low": 132.39,
-      "avwap_from_low_diff_pct": 6.19
+      "avwap_from_low_diff_pct": 6.18
     },
     {
       "symbol": "UDR",
@@ -1291,7 +1291,7 @@
       "week52_low": 66.51,
       "week52_low_date": "2025-10-30",
       "avwap_from_high": 87.66,
-      "avwap_from_high_diff_pct": -4.51,
+      "avwap_from_high_diff_pct": -4.5,
       "avwap_from_low": 83.9,
       "avwap_from_low_diff_pct": -0.23
     },
@@ -1327,7 +1327,7 @@
       "avwap_from_high": 76.79,
       "avwap_from_high_diff_pct": 2.93,
       "avwap_from_low": 74.3,
-      "avwap_from_low_diff_pct": 6.38
+      "avwap_from_low_diff_pct": 6.37
     },
     {
       "symbol": "CNP",
@@ -1392,7 +1392,7 @@
       "week52_high_date": "2026-07-15",
       "week52_low": 739.46,
       "week52_low_date": "2025-11-21",
-      "avwap_from_high": 975.63,
+      "avwap_from_high": 975.6,
       "avwap_from_high_diff_pct": -4.91,
       "avwap_from_low": 936.46,
       "avwap_from_low_diff_pct": -0.93
@@ -1443,7 +1443,7 @@
       "week52_high_date": "2026-08-19",
       "week52_low": 164.95,
       "week52_low_date": "2025-12-03",
-      "avwap_from_high": 195.62,
+      "avwap_from_high": 195.63,
       "avwap_from_high_diff_pct": 1.93,
       "avwap_from_low": 192.6,
       "avwap_from_low_diff_pct": 3.53
@@ -1513,8 +1513,8 @@
       "week52_low_date": "2026-09-23",
       "avwap_from_high": 18.9,
       "avwap_from_high_diff_pct": -3.59,
-      "avwap_from_low": 15.43,
-      "avwap_from_low_diff_pct": 18.06
+      "avwap_from_low": 15.44,
+      "avwap_from_low_diff_pct": 18.01
     },
     {
       "symbol": "VRSK",
@@ -1596,9 +1596,9 @@
       "week52_high_date": "2026-08-06",
       "week52_low": 268.17,
       "week52_low_date": "2026-04-22",
-      "avwap_from_high": 321.63,
-      "avwap_from_high_diff_pct": -2.67,
-      "avwap_from_low": 323.95,
+      "avwap_from_high": 321.61,
+      "avwap_from_high_diff_pct": -2.66,
+      "avwap_from_low": 323.94,
       "avwap_from_low_diff_pct": -3.36
     },
     {
@@ -1681,7 +1681,7 @@
       "week52_high_date": "2026-06-22",
       "week52_low": 73.52,
       "week52_low_date": "2026-02-05",
-      "avwap_from_high": 211.69,
+      "avwap_from_high": 211.68,
       "avwap_from_high_diff_pct": -18.75,
       "avwap_from_low": 187.63,
       "avwap_from_low_diff_pct": -8.34
@@ -1785,8 +1785,8 @@
       "week52_low_date": "2026-09-29",
       "avwap_from_high": 133.75,
       "avwap_from_high_diff_pct": 0.58,
-      "avwap_from_low": 127.37,
-      "avwap_from_low_diff_pct": 5.61
+      "avwap_from_low": 127.39,
+      "avwap_from_low_diff_pct": 5.59
     },
     {
       "symbol": "WM",
@@ -1800,9 +1800,9 @@
       "week52_high_date": "2026-07-17",
       "week52_low": 190.92,
       "week52_low_date": "2025-11-03",
-      "avwap_from_high": 221.15,
-      "avwap_from_high_diff_pct": 4.41,
-      "avwap_from_low": 221.2,
+      "avwap_from_high": 221.18,
+      "avwap_from_high_diff_pct": 4.39,
+      "avwap_from_low": 221.21,
       "avwap_from_low_diff_pct": 4.38
     },
     {
@@ -1819,7 +1819,7 @@
       "week52_low_date": "2026-09-29",
       "avwap_from_high": 70.71,
       "avwap_from_high_diff_pct": -1.69,
-      "avwap_from_low": 66.63,
+      "avwap_from_low": 66.64,
       "avwap_from_low_diff_pct": 4.33
     },
     {
@@ -1887,25 +1887,25 @@
       "week52_low_date": "2025-12-04",
       "avwap_from_high": 1031.96,
       "avwap_from_high_diff_pct": 0.46,
-      "avwap_from_low": 973.33,
+      "avwap_from_low": 973.34,
       "avwap_from_low_diff_pct": 6.51
     },
     {
       "symbol": "SYK",
       "name": "Stryker Corporation",
       "index": "S&P 500",
-      "last_close": 311.36,
-      "ma200": 322.47,
-      "pct_diff": -3.45,
+      "last_close": 311.75,
+      "ma200": 322.48,
+      "pct_diff": -3.33,
       "position": "below",
       "week52_high": 386.02,
       "week52_high_date": "2026-03-02",
       "week52_low": 266.16,
       "week52_low_date": "2026-09-11",
       "avwap_from_high": 311.97,
-      "avwap_from_high_diff_pct": -0.2,
-      "avwap_from_low": 284.75,
-      "avwap_from_low_diff_pct": 9.34
+      "avwap_from_high_diff_pct": -0.07,
+      "avwap_from_low": 284.91,
+      "avwap_from_low_diff_pct": 9.42
     },
     {
       "symbol": "ISRG",
@@ -1939,7 +1939,7 @@
       "avwap_from_high": 64.22,
       "avwap_from_high_diff_pct": -1.87,
       "avwap_from_low": 60.14,
-      "avwap_from_low_diff_pct": 4.79
+      "avwap_from_low_diff_pct": 4.78
     },
     {
       "symbol": "APO",
@@ -1996,18 +1996,18 @@
       "symbol": "ARES",
       "name": "Ares Management",
       "index": "S&P 500",
-      "last_close": 127.5,
+      "last_close": 127.47,
       "ma200": 122.84,
-      "pct_diff": 3.79,
+      "pct_diff": 3.77,
       "position": "above",
       "week52_high": 173.99,
       "week52_high_date": "2025-12-10",
       "week52_low": 92.59,
       "week52_low_date": "2026-03-12",
       "avwap_from_high": 126.97,
-      "avwap_from_high_diff_pct": 0.41,
+      "avwap_from_high_diff_pct": 0.39,
       "avwap_from_low": 118.6,
-      "avwap_from_low_diff_pct": 7.5
+      "avwap_from_low_diff_pct": 7.48
     },
     {
       "symbol": "JKHY",
@@ -2057,7 +2057,7 @@
       "week52_low_date": "2026-10-05",
       "avwap_from_high": 3214.38,
       "avwap_from_high_diff_pct": -2.41,
-      "avwap_from_low": 3036.89,
+      "avwap_from_low": 3036.9,
       "avwap_from_low_diff_pct": 3.3
     },
     {
@@ -2072,10 +2072,10 @@
       "week52_high_date": "2026-07-07",
       "week52_low": 99.8,
       "week52_low_date": "2026-10-01",
-      "avwap_from_high": 107.39,
-      "avwap_from_high_diff_pct": 6.74,
-      "avwap_from_low": 107.47,
-      "avwap_from_low_diff_pct": 6.66
+      "avwap_from_high": 107.4,
+      "avwap_from_high_diff_pct": 6.73,
+      "avwap_from_low": 107.5,
+      "avwap_from_low_diff_pct": 6.63
     },
     {
       "symbol": "VZ",
@@ -2089,7 +2089,7 @@
       "week52_high_date": "2026-09-15",
       "week52_low": 36.35,
       "week52_low_date": "2025-10-30",
-      "avwap_from_high": 44.83,
+      "avwap_from_high": 44.82,
       "avwap_from_high_diff_pct": -2.6,
       "avwap_from_low": 43.58,
       "avwap_from_low_diff_pct": 0.18
@@ -2098,17 +2098,17 @@
       "symbol": "ABT",
       "name": "Abbott Laboratories",
       "index": "S&P 500",
-      "last_close": 104.56,
+      "last_close": 104.57,
       "ma200": 100.55,
-      "pct_diff": 3.99,
+      "pct_diff": 4.0,
       "position": "above",
       "week52_high": 128.83,
       "week52_high_date": "2025-11-18",
       "week52_low": 80.89,
       "week52_low_date": "2026-05-11",
       "avwap_from_high": 101.57,
-      "avwap_from_high_diff_pct": 2.95,
-      "avwap_from_low": 96.8,
+      "avwap_from_high_diff_pct": 2.96,
+      "avwap_from_low": 96.81,
       "avwap_from_low_diff_pct": 8.01
     },
     {
@@ -2174,9 +2174,9 @@
       "week52_high_date": "2026-01-06",
       "week52_low": 173.62,
       "week52_low_date": "2026-03-27",
-      "avwap_from_high": 201.34,
+      "avwap_from_high": 201.35,
       "avwap_from_high_diff_pct": 3.67,
-      "avwap_from_low": 198.08,
+      "avwap_from_low": 198.09,
       "avwap_from_low_diff_pct": 5.38
     },
     {
@@ -2193,8 +2193,8 @@
       "week52_low_date": "2026-09-16",
       "avwap_from_high": 1225.01,
       "avwap_from_high_diff_pct": -4.01,
-      "avwap_from_low": 1110.33,
-      "avwap_from_low_diff_pct": 5.91
+      "avwap_from_low": 1110.38,
+      "avwap_from_low_diff_pct": 5.9
     },
     {
       "symbol": "DG",
@@ -2225,10 +2225,10 @@
       "week52_high_date": "2026-10-06",
       "week52_low": 167.23,
       "week52_low_date": "2025-11-21",
-      "avwap_from_high": 346.63,
-      "avwap_from_high_diff_pct": -4.84,
+      "avwap_from_high": 346.6,
+      "avwap_from_high_diff_pct": -4.83,
       "avwap_from_low": 301.65,
-      "avwap_from_low_diff_pct": 9.35
+      "avwap_from_low_diff_pct": 9.34
     },
     {
       "symbol": "NOC",
@@ -2244,8 +2244,8 @@
       "week52_low_date": "2026-10-02",
       "avwap_from_high": 562.33,
       "avwap_from_high_diff_pct": 0.0,
-      "avwap_from_low": 512.19,
-      "avwap_from_low_diff_pct": 9.8
+      "avwap_from_low": 512.24,
+      "avwap_from_low_diff_pct": 9.78
     },
     {
       "symbol": "BMY",
@@ -2276,10 +2276,10 @@
       "week52_high_date": "2026-02-26",
       "week52_low": 66.15,
       "week52_low_date": "2026-09-25",
-      "avwap_from_high": 76.09,
+      "avwap_from_high": 76.08,
       "avwap_from_high_diff_pct": -3.23,
-      "avwap_from_low": 70.38,
-      "avwap_from_low_diff_pct": 4.62
+      "avwap_from_low": 70.41,
+      "avwap_from_low_diff_pct": 4.58
     },
     {
       "symbol": "KR",
@@ -2310,10 +2310,10 @@
       "week52_high_date": "2026-06-02",
       "week52_low": 197.77,
       "week52_low_date": "2026-07-23",
-      "avwap_from_high": 241.98,
-      "avwap_from_high_diff_pct": 6.74,
-      "avwap_from_low": 231.58,
-      "avwap_from_low_diff_pct": 11.53
+      "avwap_from_high": 241.99,
+      "avwap_from_high_diff_pct": 6.73,
+      "avwap_from_low": 231.6,
+      "avwap_from_low_diff_pct": 11.52
     },
     {
       "symbol": "TSN",
@@ -2380,7 +2380,7 @@
       "week52_low_date": "2026-07-29",
       "avwap_from_high": 394.14,
       "avwap_from_high_diff_pct": 2.32,
-      "avwap_from_low": 359.49,
+      "avwap_from_low": 359.5,
       "avwap_from_low_diff_pct": 12.19
     },
     {
@@ -2429,7 +2429,7 @@
       "week52_high_date": "2026-10-06",
       "week52_low": 163.9,
       "week52_low_date": "2026-03-30",
-      "avwap_from_high": 221.24,
+      "avwap_from_high": 221.23,
       "avwap_from_high_diff_pct": -3.42,
       "avwap_from_low": 210.23,
       "avwap_from_low_diff_pct": 1.63
@@ -2517,24 +2517,24 @@
       "avwap_from_high": 234.19,
       "avwap_from_high_diff_pct": -0.81,
       "avwap_from_low": 211.27,
-      "avwap_from_low_diff_pct": 9.96
+      "avwap_from_low_diff_pct": 9.95
     },
     {
       "symbol": "TT",
       "name": "Trane Technologies",
       "index": "S&P 500",
-      "last_close": 431.05,
+      "last_close": 431.1,
       "ma200": 453.22,
-      "pct_diff": -4.89,
+      "pct_diff": -4.88,
       "position": "below",
       "week52_high": 504.68,
       "week52_high_date": "2026-06-25",
       "week52_low": 345.62,
       "week52_low_date": "2026-01-06",
-      "avwap_from_high": 459.92,
-      "avwap_from_high_diff_pct": -6.28,
-      "avwap_from_low": 446.56,
-      "avwap_from_low_diff_pct": -3.47
+      "avwap_from_high": 459.77,
+      "avwap_from_high_diff_pct": -6.24,
+      "avwap_from_low": 446.53,
+      "avwap_from_low_diff_pct": -3.45
     },
     {
       "symbol": "NEE",
@@ -2549,9 +2549,9 @@
       "week52_low": 74.41,
       "week52_low_date": "2026-10-01",
       "avwap_from_high": 84.21,
-      "avwap_from_high_diff_pct": -2.46,
-      "avwap_from_low": 78.84,
-      "avwap_from_low_diff_pct": 4.19
+      "avwap_from_high_diff_pct": -2.45,
+      "avwap_from_low": 78.85,
+      "avwap_from_low_diff_pct": 4.17
     },
     {
       "symbol": "SNA",
@@ -2565,7 +2565,7 @@
       "week52_high_date": "2026-08-06",
       "week52_low": 312.34,
       "week52_low_date": "2025-11-18",
-      "avwap_from_high": 374.57,
+      "avwap_from_high": 374.55,
       "avwap_from_high_diff_pct": -4.26,
       "avwap_from_low": 371.58,
       "avwap_from_low_diff_pct": -3.49
@@ -2582,7 +2582,7 @@
       "week52_high_date": "2026-06-30",
       "week52_low": 202.28,
       "week52_low_date": "2025-11-14",
-      "avwap_from_high": 503.73,
+      "avwap_from_high": 503.72,
       "avwap_from_high_diff_pct": -16.29,
       "avwap_from_low": 424.42,
       "avwap_from_low_diff_pct": -0.65
@@ -2601,7 +2601,7 @@
       "week52_low_date": "2026-02-12",
       "avwap_from_high": 459.8,
       "avwap_from_high_diff_pct": 6.31,
-      "avwap_from_low": 458.81,
+      "avwap_from_low": 458.82,
       "avwap_from_low_diff_pct": 6.54
     },
     {
