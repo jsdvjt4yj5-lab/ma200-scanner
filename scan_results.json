@@ -1,25 +1,8 @@
 {
-  "generated_at": "2026-11-16T23:43:58.951011+00:00",
+  "generated_at": "2026-11-17T02:37:18.708550+00:00",
   "threshold_pct": 5.0,
   "universe_size": 518,
   "matches": [
-    {
-      "symbol": "CEG",
-      "name": "Constellation Energy",
-      "index": "Nasdaq-100 + S&P 500",
-      "last_close": 277.82,
-      "ma200": 277.88,
-      "pct_diff": -0.02,
-      "position": "below",
-      "week52_high": 379.1,
-      "week52_high_date": "2025-12-12",
-      "week52_low": 228.28,
-      "week52_low_date": "2026-07-01",
-      "avwap_from_high": 282.77,
-      "avwap_from_high_diff_pct": -1.75,
-      "avwap_from_low": 267.75,
-      "avwap_from_low_diff_pct": 3.76
-    },
     {
       "symbol": "APH",
       "name": "Amphenol",
@@ -53,6 +36,23 @@
       "avwap_from_high_diff_pct": 0.07,
       "avwap_from_low": 455.1,
       "avwap_from_low_diff_pct": -3.03
+    },
+    {
+      "symbol": "CEG",
+      "name": "Constellation Energy",
+      "index": "Nasdaq-100 + S&P 500",
+      "last_close": 277.82,
+      "ma200": 277.46,
+      "pct_diff": 0.13,
+      "position": "above",
+      "week52_high": 378.52,
+      "week52_high_date": "2025-12-12",
+      "week52_low": 227.93,
+      "week52_low_date": "2026-07-01",
+      "avwap_from_high": 282.34,
+      "avwap_from_high_diff_pct": -1.6,
+      "avwap_from_low": 267.35,
+      "avwap_from_low_diff_pct": 3.92
     },
     {
       "symbol": "IBM",
@@ -138,23 +138,6 @@
       "avwap_from_high_diff_pct": 0.18,
       "avwap_from_low": 266.13,
       "avwap_from_low_diff_pct": 4.18
-    },
-    {
-      "symbol": "UDR",
-      "name": "UDR, Inc.",
-      "index": "S&P 500",
-      "last_close": 36.37,
-      "ma200": 36.23,
-      "pct_diff": 0.39,
-      "position": "above",
-      "week52_high": 41.34,
-      "week52_high_date": "2026-07-07",
-      "week52_low": 32.55,
-      "week52_low_date": "2026-03-30",
-      "avwap_from_high": 36.07,
-      "avwap_from_high_diff_pct": 0.84,
-      "avwap_from_low": 36.25,
-      "avwap_from_low_diff_pct": 0.33
     },
     {
       "symbol": "DTE",
@@ -477,7 +460,7 @@
       "avwap_from_high": 70.12,
       "avwap_from_high_diff_pct": 0.95,
       "avwap_from_low": 67.3,
-      "avwap_from_low_diff_pct": 5.19
+      "avwap_from_low_diff_pct": 5.18
     },
     {
       "symbol": "NWSA",
@@ -495,6 +478,23 @@
       "avwap_from_high_diff_pct": -8.5,
       "avwap_from_low": 26.7,
       "avwap_from_low_diff_pct": -0.14
+    },
+    {
+      "symbol": "UDR",
+      "name": "UDR, Inc.",
+      "index": "S&P 500",
+      "last_close": 36.37,
+      "ma200": 36.09,
+      "pct_diff": 0.79,
+      "position": "above",
+      "week52_high": 41.18,
+      "week52_high_date": "2026-07-07",
+      "week52_low": 32.42,
+      "week52_low_date": "2026-03-30",
+      "avwap_from_high": 35.93,
+      "avwap_from_high_diff_pct": 1.24,
+      "avwap_from_low": 36.11,
+      "avwap_from_low_diff_pct": 0.73
     },
     {
       "symbol": "RF",
@@ -629,8 +629,8 @@
       "week52_low_date": "2026-09-25",
       "avwap_from_high": 75.94,
       "avwap_from_high_diff_pct": 0.16,
-      "avwap_from_low": 71.53,
-      "avwap_from_low_diff_pct": 6.34
+      "avwap_from_low": 71.55,
+      "avwap_from_low_diff_pct": 6.3
     },
     {
       "symbol": "AXP",
@@ -661,8 +661,8 @@
       "week52_high_date": "2026-08-06",
       "week52_low": 799.62,
       "week52_low_date": "2025-11-18",
-      "avwap_from_high": 961.63,
-      "avwap_from_high_diff_pct": -2.79,
+      "avwap_from_high": 961.55,
+      "avwap_from_high_diff_pct": -2.78,
       "avwap_from_low": 928.95,
       "avwap_from_low_diff_pct": 0.63
     },
@@ -729,8 +729,8 @@
       "week52_high_date": "2026-08-25",
       "week52_low": 80.58,
       "week52_low_date": "2025-11-21",
-      "avwap_from_high": 120.02,
-      "avwap_from_high_diff_pct": -8.09,
+      "avwap_from_high": 120.01,
+      "avwap_from_high_diff_pct": -8.08,
       "avwap_from_low": 109.81,
       "avwap_from_low_diff_pct": 0.45
     },
@@ -782,8 +782,8 @@
       "week52_low_date": "2026-10-15",
       "avwap_from_high": 61.25,
       "avwap_from_high_diff_pct": 0.83,
-      "avwap_from_low": 55.45,
-      "avwap_from_low_diff_pct": 11.38
+      "avwap_from_low": 55.46,
+      "avwap_from_low_diff_pct": 11.37
     },
     {
       "symbol": "DOW",
@@ -884,7 +884,7 @@
       "week52_low_date": "2026-10-01",
       "avwap_from_high": 171.06,
       "avwap_from_high_diff_pct": 2.98,
-      "avwap_from_low": 168.31,
+      "avwap_from_low": 168.32,
       "avwap_from_low_diff_pct": 4.66
     },
     {
@@ -1228,23 +1228,6 @@
       "avwap_from_low_diff_pct": 3.05
     },
     {
-      "symbol": "CF",
-      "name": "CF Industries",
-      "index": "S&P 500",
-      "last_close": 119.85,
-      "ma200": 117.38,
-      "pct_diff": 2.11,
-      "position": "above",
-      "week52_high": 141.66,
-      "week52_high_date": "2026-09-10",
-      "week52_low": 74.33,
-      "week52_low_date": "2025-12-10",
-      "avwap_from_high": 120.06,
-      "avwap_from_high_diff_pct": -0.18,
-      "avwap_from_low": 114.01,
-      "avwap_from_low_diff_pct": 5.12
-    },
-    {
       "symbol": "HIG",
       "name": "Hartford (The)",
       "index": "S&P 500",
@@ -1307,8 +1290,8 @@
       "week52_high_date": "2026-06-30",
       "week52_low": 84.64,
       "week52_low_date": "2026-03-30",
-      "avwap_from_high": 113.67,
-      "avwap_from_high_diff_pct": -2.56,
+      "avwap_from_high": 113.66,
+      "avwap_from_high_diff_pct": -2.55,
       "avwap_from_low": 107.93,
       "avwap_from_low_diff_pct": 2.62
     },
@@ -1444,9 +1427,26 @@
       "week52_low": 18.77,
       "week52_low_date": "2026-10-12",
       "avwap_from_high": 21.42,
-      "avwap_from_high_diff_pct": 6.01,
-      "avwap_from_low": 21.13,
-      "avwap_from_low_diff_pct": 7.47
+      "avwap_from_high_diff_pct": 6.0,
+      "avwap_from_low": 21.14,
+      "avwap_from_low_diff_pct": 7.45
+    },
+    {
+      "symbol": "COF",
+      "name": "Capital One",
+      "index": "S&P 500",
+      "last_close": 193.22,
+      "ma200": 198.19,
+      "pct_diff": -2.51,
+      "position": "below",
+      "week52_high": 255.59,
+      "week52_high_date": "2026-01-06",
+      "week52_low": 172.91,
+      "week52_low_date": "2026-03-27",
+      "avwap_from_high": 200.52,
+      "avwap_from_high_diff_pct": -3.64,
+      "avwap_from_low": 197.55,
+      "avwap_from_low_diff_pct": -2.19
     },
     {
       "symbol": "AOS",
@@ -1500,6 +1500,23 @@
       "avwap_from_low_diff_pct": 3.13
     },
     {
+      "symbol": "CF",
+      "name": "CF Industries",
+      "index": "S&P 500",
+      "last_close": 119.85,
+      "ma200": 116.82,
+      "pct_diff": 2.6,
+      "position": "above",
+      "week52_high": 140.98,
+      "week52_high_date": "2026-09-10",
+      "week52_low": 73.97,
+      "week52_low_date": "2025-12-10",
+      "avwap_from_high": 119.49,
+      "avwap_from_high_diff_pct": 0.3,
+      "avwap_from_low": 113.46,
+      "avwap_from_low_diff_pct": 5.63
+    },
+    {
       "symbol": "BX",
       "name": "Blackstone Inc.",
       "index": "S&P 500",
@@ -1545,8 +1562,8 @@
       "week52_high_date": "2026-08-10",
       "week52_low": 97.75,
       "week52_low_date": "2025-11-14",
-      "avwap_from_high": 123.27,
-      "avwap_from_high_diff_pct": 7.85,
+      "avwap_from_high": 123.29,
+      "avwap_from_high_diff_pct": 7.84,
       "avwap_from_low": 131.84,
       "avwap_from_low_diff_pct": 0.84
     },
@@ -1619,23 +1636,6 @@
       "avwap_from_low_diff_pct": 3.82
     },
     {
-      "symbol": "COF",
-      "name": "Capital One",
-      "index": "S&P 500",
-      "last_close": 193.22,
-      "ma200": 199.0,
-      "pct_diff": -2.9,
-      "position": "below",
-      "week52_high": 256.64,
-      "week52_high_date": "2026-01-06",
-      "week52_low": 173.62,
-      "week52_low_date": "2026-03-27",
-      "avwap_from_high": 201.34,
-      "avwap_from_high_diff_pct": -4.04,
-      "avwap_from_low": 198.36,
-      "avwap_from_low_diff_pct": -2.59
-    },
-    {
       "symbol": "ETR",
       "name": "Entergy",
       "index": "S&P 500",
@@ -1649,8 +1649,8 @@
       "week52_low_date": "2025-12-22",
       "avwap_from_high": 108.1,
       "avwap_from_high_diff_pct": 1.96,
-      "avwap_from_low": 105.93,
-      "avwap_from_low_diff_pct": 4.05
+      "avwap_from_low": 105.94,
+      "avwap_from_low_diff_pct": 4.04
     },
     {
       "symbol": "SYK",
@@ -1666,7 +1666,7 @@
       "week52_low_date": "2026-09-11",
       "avwap_from_high": 312.53,
       "avwap_from_high_diff_pct": -0.58,
-      "avwap_from_low": 295.45,
+      "avwap_from_low": 295.46,
       "avwap_from_low_diff_pct": 5.17
     },
     {
@@ -1683,8 +1683,8 @@
       "week52_low_date": "2026-09-25",
       "avwap_from_high": 44.95,
       "avwap_from_high_diff_pct": 3.35,
-      "avwap_from_low": 43.65,
-      "avwap_from_low_diff_pct": 6.44
+      "avwap_from_low": 43.66,
+      "avwap_from_low_diff_pct": 6.42
     },
     {
       "symbol": "TSCO",
@@ -1702,23 +1702,6 @@
       "avwap_from_high_diff_pct": 6.93,
       "avwap_from_low": 32.57,
       "avwap_from_low_diff_pct": 16.52
-    },
-    {
-      "symbol": "SO",
-      "name": "Southern Company",
-      "index": "S&P 500",
-      "last_close": 94.64,
-      "ma200": 91.87,
-      "pct_diff": 3.02,
-      "position": "above",
-      "week52_high": 98.45,
-      "week52_high_date": "2026-07-07",
-      "week52_low": 81.69,
-      "week52_low_date": "2026-09-29",
-      "avwap_from_high": 90.46,
-      "avwap_from_high_diff_pct": 4.62,
-      "avwap_from_low": 90.56,
-      "avwap_from_low_diff_pct": 4.51
     },
     {
       "symbol": "IR",
@@ -1902,10 +1885,10 @@
       "week52_high_date": "2026-08-24",
       "week52_low": 83.42,
       "week52_low_date": "2026-05-28",
-      "avwap_from_high": 98.15,
-      "avwap_from_high_diff_pct": -5.31,
+      "avwap_from_high": 98.14,
+      "avwap_from_high_diff_pct": -5.3,
       "avwap_from_low": 97.25,
-      "avwap_from_low_diff_pct": -4.44
+      "avwap_from_low_diff_pct": -4.43
     },
     {
       "symbol": "C",
@@ -1919,7 +1902,7 @@
       "week52_high_date": "2026-06-18",
       "week52_low": 93.89,
       "week52_low_date": "2025-11-21",
-      "avwap_from_high": 131.63,
+      "avwap_from_high": 131.62,
       "avwap_from_high_diff_pct": -7.83,
       "avwap_from_low": 121.71,
       "avwap_from_low_diff_pct": -0.32
@@ -2055,10 +2038,27 @@
       "week52_high_date": "2026-03-02",
       "week52_low": 429.47,
       "week52_low_date": "2025-12-02",
-      "avwap_from_high": 561.3,
+      "avwap_from_high": 561.31,
       "avwap_from_high_diff_pct": 4.26,
       "avwap_from_low": 557.91,
       "avwap_from_low_diff_pct": 4.89
+    },
+    {
+      "symbol": "SO",
+      "name": "Southern Company",
+      "index": "S&P 500",
+      "last_close": 94.64,
+      "ma200": 91.13,
+      "pct_diff": 3.86,
+      "position": "above",
+      "week52_high": 97.65,
+      "week52_high_date": "2026-07-07",
+      "week52_low": 81.03,
+      "week52_low_date": "2026-09-29",
+      "avwap_from_high": 89.74,
+      "avwap_from_high_diff_pct": 5.45,
+      "avwap_from_low": 89.86,
+      "avwap_from_low_diff_pct": 5.32
     },
     {
       "symbol": "DVA",
