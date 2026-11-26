@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T02:26:24.521620+00:00",
+  "generated_at": "2026-11-26T23:48:18.468558+00:00",
   "threshold_pct": 5.0,
   "universe_size": 518,
   "matches": [
@@ -1324,7 +1324,7 @@
       "week52_high_date": "2026-09-24",
       "week52_low": 519.37,
       "week52_low_date": "2026-03-27",
-      "avwap_from_high": 666.32,
+      "avwap_from_high": 666.31,
       "avwap_from_high_diff_pct": -8.47,
       "avwap_from_low": 627.88,
       "avwap_from_low_diff_pct": -2.87
